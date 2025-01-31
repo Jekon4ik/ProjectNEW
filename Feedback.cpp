@@ -13,7 +13,8 @@ double Feedback::getError()
     return this->generatedValue - this->measuredValue;
 }
 
-void Feedback::reset(){
+void Feedback::reset()
+{
     double measuredValue = 0;
     double generatedValue = 0;
 }

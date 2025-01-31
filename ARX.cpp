@@ -42,7 +42,8 @@ double Arx::getAdjustedValue(double controlValue)
     return adjustedValue;
 }
 
-void Arx::reset(){
+void Arx::reset()
+{
     adjustedValuesBuffer.resize(a.size(), 0.0);
     controlValuesBuffer.resize(k + b.size(), 0.0);
 }

@@ -17,6 +17,15 @@ MainWindow::MainWindow(QWidget *parent)
     ui->mainPlot->yAxis->setRange(-10, 10);
     ui->mainPlot->graph(0)->setPen(QPen(Qt::green));
     ui->mainPlot->graph(1)->setPen(QPen(Qt::red));
+    ui->mainPlot->plotLayout()->insertRow(0);
+    ui->mainPlot->plotLayout()->addElement(0, 0, new QCPTextElement(ui->mainPlot, "Main Plot", QFont("sans", 12, QFont::Bold)));
+    ui->mainPlot->legend->setVisible(true);
+    ui->mainPlot->legend->setFont(QFont("sans", 10));
+    ui->mainPlot->legend->setBrush(QBrush(QColor(255, 255, 255, 150))); // Transparent white background
+
+    // Assign names to graphs
+    ui->mainPlot->graph(0)->setName("Generator"); // Green graph
+    ui->mainPlot->graph(1)->setName("ARX");  // Red graph
 
     ui->errorPlot->addGraph();
     ui->errorPlot->graph(0)->setScatterStyle(QCPScatterStyle::ssCircle);
@@ -25,6 +34,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->errorPlot->xAxis->setRange(0, 100);
     ui->errorPlot->yAxis->setRange(-10, 10);
     ui->errorPlot->graph(0)->setPen(QPen(Qt::blue));
+    ui->errorPlot->plotLayout()->insertRow(0);
+    ui->errorPlot->plotLayout()->addElement(0, 0, new QCPTextElement(ui->errorPlot, "PID", QFont("sans", 12, QFont::Bold)));
 
     ui->pidPlot->addGraph();
     ui->pidPlot->graph(0)->setScatterStyle(QCPScatterStyle::ssCircle);
@@ -33,6 +44,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->pidPlot->xAxis->setRange(0, 100);
     ui->pidPlot->yAxis->setRange(-10, 10);
     ui->pidPlot->graph(0)->setPen(QPen(Qt::blue));
+    ui->pidPlot->plotLayout()->insertRow(0);
+    ui->pidPlot->plotLayout()->addElement(0, 0, new QCPTextElement(ui->pidPlot, "ERROR", QFont("sans", 12, QFont::Bold)));
     connect(facade, &Facade::newSimulationData, this, &MainWindow::updatePlots);
 }
 
@@ -51,24 +64,40 @@ void MainWindow::updatePlots(
     if (time > 50)
         ui->mainPlot->xAxis->setRange(time - 50, time+marginX); // Auto-scroll
 
-    double yMin = std::min(generatedValue, adjustedValue) - 1;
-    double yMax = std::max(generatedValue, adjustedValue) + 1;
+    double yMin = ui->mainPlot->yAxis->range().lower;
+    double yMax = ui->mainPlot->yAxis->range().upper;
+
+    if(generatedValue < yMin || adjustedValue > yMax){
+        yMin -= 12;
+    }
+    if(generatedValue > yMax || adjustedValue > yMax){
+        yMax +=12;
+    }
     ui->mainPlot->yAxis->setRange(yMin, yMax);
     ui->mainPlot->replot();
-    ui->mainPlot->update();
+    //ui->mainPlot->update();
 
-    // Update errorPlot
+    //Update errorPlot
     ui->errorPlot->graph(0)->addData(time, error);
     ui->errorPlot->xAxis->setRange(time - 50, time + marginX);
-    double errorMin = error - 1;
-    double errorMax = error + 1;
+    double errorMin = ui->errorPlot->yAxis->range().lower;
+    double errorMax = ui->errorPlot->yAxis->range().upper;
+    if(error < errorMin){ errorMin -= 12; }
+    if(error> errorMax){ errorMax += 12; }
+
     ui->errorPlot->yAxis->setRange(errorMin, errorMax);
     ui->errorPlot->replot();
 
-    // Update pidPlot
+    //Update pidPlot
     ui->pidPlot->graph(0)->addData(time, controlValue);
-    double pidMin = controlValue - 1;
-    double pidMax = controlValue + 1;
+    ui->pidPlot->xAxis->setRange(time - 50, time + marginX);
+
+    double pidMin = ui->pidPlot->yAxis->range().lower;
+    double pidMax = ui->pidPlot->yAxis->range().upper;
+
+    if(controlValue < pidMin){ pidMin -= 12;}
+    if(controlValue > pidMax) {pidMax +=12;}
+
     ui->pidPlot->yAxis->setRange(pidMin, pidMax);
     ui->pidPlot->replot();
 }

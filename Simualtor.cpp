@@ -11,14 +11,13 @@ void Simulator::setState(double generatedValue,
     this->adjustedValue = adjustedValue;
 }
 
-vector<double> Simulator::getState(){
-    vector<double> values = {
-        static_cast<double>(this->time),
-        static_cast<double>(this->generatedValue),
-        static_cast<double>(this->error),
-        static_cast<double>(this->controlValue),
-        static_cast<double>(this->adjustedValue)
-    };
+vector<double> Simulator::getState()
+{
+    vector<double> values = {static_cast<double>(this->time),
+                             static_cast<double>(this->generatedValue),
+                             static_cast<double>(this->error),
+                             static_cast<double>(this->controlValue),
+                             static_cast<double>(this->adjustedValue)};
     return values;
 }
 
@@ -42,19 +41,24 @@ Simulator::Simulator(Arx *arx, PID *pid, Feedback *feedback, SetpointGenerator *
     this->feedback = feedback;
     this->setpointGenerator = setpointGenerator;
 }
-void Simulator::setARX(Arx* arx){
+void Simulator::setARX(Arx *arx)
+{
     this->arx = arx;
 }
-void Simulator::setPID(PID* pid){
+void Simulator::setPID(PID *pid)
+{
     this->pid = pid;
 }
-void Simulator::setFeedback(Feedback* fb){
+void Simulator::setFeedback(Feedback *fb)
+{
     this->feedback = fb;
 }
-void Simulator::setGenerator(SetpointGenerator* generator){
+void Simulator::setGenerator(SetpointGenerator *generator)
+{
     this->setpointGenerator = generator;
 }
-void Simulator::setTimeInterval(int interval){
+void Simulator::setTimeInterval(int interval)
+{
     this->timeInterval = interval;
 }
 
@@ -70,8 +74,9 @@ void Simulator::runSimulation()
     this->feedback->setMeasuredValue(adjustedValue);
     generationHistory.emplace_back(generatedValue, error, controlValue, adjustedValue);
 
-    qDebug() << "time = " << time << " w = " << generatedValue << "; error = " << feedback->getError()
-             << "; u = " << controlValue << "; y = " << adjustedValue << "Time Interval = " << this->timeInterval;
+    qDebug() << "time = " << time << " w = " << generatedValue
+             << "; error = " << feedback->getError() << "; u = " << controlValue
+             << "; y = " << adjustedValue << "Time Interval = " << this->timeInterval;
     this->time++;
     setState(generatedValue, error, controlValue, adjustedValue);
     //timeSleep(this->timeInterval);
@@ -125,10 +130,14 @@ SimulatorMemento Simulator::saveState()
 void Simulator::restoreState(const SimulatorMemento &memento)
 {
     //cout << " null" << endl;
-    if(this->setpointGenerator == nullptr) cout << "setpoint null" << endl;
-    if(this->arx == nullptr) cout << "arx null" << endl;
-    if(this->pid == nullptr) cout << "pid null" << endl;
-    if(this->feedback == nullptr) cout << "feedback null" << endl;
+    if (this->setpointGenerator == nullptr)
+        cout << "setpoint null" << endl;
+    if (this->arx == nullptr)
+        cout << "arx null" << endl;
+    if (this->pid == nullptr)
+        cout << "pid null" << endl;
+    if (this->feedback == nullptr)
+        cout << "feedback null" << endl;
 
     this->time = memento.getTime();
     feedback->setGeneratedValue(memento.getGeneratedValue());
@@ -194,15 +203,15 @@ void Simulator::loadFromFile(const std::string &filename)
         this->controlValue = memento.getControlValue();
         this->adjustedValue = memento.getAdjustedValue();
 
-        qDebug() <<"Memento readed: time "<< memento.getTime() << " " << memento.getGeneratedValue() << " " << memento.getError()
-             << " " << memento.getControlValue() << " " << memento.getAdjustedValue();
-
+        qDebug() << "Memento readed: time " << memento.getTime() << " "
+                 << memento.getGeneratedValue() << " " << memento.getError() << " "
+                 << memento.getControlValue() << " " << memento.getAdjustedValue();
 
         arxASettings = memento.getArxA();
         arxBSettings = memento.getArxB();
         arxKSettings = memento.getArxK();
         pidSettings[0] = memento.getPidK();
-        pidSettings[1] =memento.getPidTi();
+        pidSettings[1] = memento.getPidTi();
         pidSettings[2] = memento.getPidTd();
 
         this->generationHistory = memento.getHistory();
@@ -231,14 +240,27 @@ double Simulator::getControllValue() const
 {
     return controlValue;
 }
-int Simulator::getTimeInterval(){
+int Simulator::getTimeInterval()
+{
     return this->timeInterval;
 }
 
-Arx* Simulator::getARX() {return this->arx;}
-PID* Simulator::getPID() {return this->pid;}
-Feedback* Simulator::getFeedback() {return this->feedback;}
-SetpointGenerator*  Simulator::getGenerator() {return this->setpointGenerator;}
+Arx *Simulator::getARX()
+{
+    return this->arx;
+}
+PID *Simulator::getPID()
+{
+    return this->pid;
+}
+Feedback *Simulator::getFeedback()
+{
+    return this->feedback;
+}
+SetpointGenerator *Simulator::getGenerator()
+{
+    return this->setpointGenerator;
+}
 
 std::shared_ptr<Arx> Simulator::getARXSettings()
 {
@@ -255,11 +277,23 @@ std::shared_ptr<PID> Simulator::getPIDSettings()
 
     return std::make_shared<PID>(k, ti, td);
 }
-std::vector<double> Simulator::getArxASettings(){return this->arxASettings;}
-std::vector<double> Simulator::getArxBSettings(){return this->arxBSettings;}
-int Simulator::getArxKSettings(){return this->arxKSettings;}
+std::vector<double> Simulator::getArxASettings()
+{
+    return this->arxASettings;
+}
+std::vector<double> Simulator::getArxBSettings()
+{
+    return this->arxBSettings;
+}
+int Simulator::getArxKSettings()
+{
+    return this->arxKSettings;
+}
 
-std::vector<double> Simulator::getPidSettings() { return this->pidSettings;}
+std::vector<double> Simulator::getPidSettings()
+{
+    return this->pidSettings;
+}
 
 std::vector<std::tuple<double, double, double, double>> Simulator::getHistory()
 {

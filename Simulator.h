@@ -1,5 +1,6 @@
 #define _USE_MATH_DEFINES
 #pragma once
+#include <QDebug>
 #include "ARX.h"
 #include "Feedback.h"
 #include "PIDRegulator.h"
@@ -16,7 +17,6 @@
 #include <string>
 #include <thread>
 #include <vector>
-#include <QDebug>
 
 class Simulator
 {
@@ -75,16 +75,16 @@ public:
     void setGeneratedValue();
     void setControllValue();
 
-    void setARX(Arx* arx);
-    void setPID(PID* pid);
-    void setFeedback(Feedback* fb);
-    void setGenerator(SetpointGenerator* generator);
+    void setARX(Arx *arx);
+    void setPID(PID *pid);
+    void setFeedback(Feedback *fb);
+    void setGenerator(SetpointGenerator *generator);
     void setTimeInterval(int interval);
 
-    Arx* getARX();
-    PID* getPID();
-    Feedback* getFeedback();
-    SetpointGenerator*  getGenerator();
+    Arx *getARX();
+    PID *getPID();
+    Feedback *getFeedback();
+    SetpointGenerator *getGenerator();
     int getTimeInterval();
 
     std::shared_ptr<Arx> getARXSettings();

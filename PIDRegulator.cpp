@@ -34,13 +34,16 @@ PID::PID(double k, double Ti, double Td)
     this->Ti = Ti;
     this->Td = Td;
 }
-void PID::setK(double k){
+void PID::setK(double k)
+{
     this->k = k;
 }
-void PID::setTi(double Ti){
+void PID::setTi(double Ti)
+{
     this->Ti = Ti;
 }
-void PID::setTd(double Td) {
+void PID::setTd(double Td)
+{
     this->Td = Td;
 }
 void PID::setError(double error)

@@ -41,5 +41,11 @@ public:
     void setK(double k);
     void setTi(double Ti);
     void setTd(double Td);
-    void reset(){error =0;errorSum=0;previosError=0;lastControlValue=0;}
+    void reset()
+    {
+        error = 0;
+        errorSum = 0;
+        previosError = 0;
+        lastControlValue = 0;
+    }
 };

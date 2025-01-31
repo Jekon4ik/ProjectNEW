@@ -16,7 +16,8 @@ SinusoidSignal::SinusoidSignal(double amplitude, double period)
 }
 double SinusoidSignal::generateSignal(int time) //override
 {
-    if(this->amplitude ==0 || this->period ==0) return 0;
+    if (this->amplitude == 0 || this->period == 0)
+        return 0;
     return amplitude * sin(2 * M_PI / period * time);
 }
 
