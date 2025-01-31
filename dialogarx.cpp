@@ -13,7 +13,8 @@ DialogARX::~DialogARX()
     delete ui;
 }
 
-std::vector<double> DialogARX::getA(){
+std::vector<double> DialogARX::getA()
+{
     std::vector<double> values;
 
     QString text = ui->lineEdit->text();
@@ -31,7 +32,8 @@ std::vector<double> DialogARX::getA(){
 
     return values;
 }
-std::vector<double> DialogARX::getB(){
+std::vector<double> DialogARX::getB()
+{
     std::vector<double> values;
 
     QString text = ui->lineEdit_2->text();
@@ -50,18 +52,18 @@ std::vector<double> DialogARX::getB(){
     return values;
 }
 
-int DialogARX::getK(){
+int DialogARX::getK()
+{
     return ui->spinBox->value();
 }
 
 void DialogARX::on_pushButton_clicked()
 {
-    if(ui->lineEdit->text() != "" && ui->lineEdit_2->text() != "") accept();
+    if (ui->lineEdit->text() != "" && ui->lineEdit_2->text() != "")
+        accept();
 }
-
 
 void DialogARX::on_pushButton_2_clicked()
 {
     reject();
 }
-

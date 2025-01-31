@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'dialogarx.ui'
 **
-** Created by: Qt User Interface Compiler version 6.7.3
+** Created by: Qt User Interface Compiler version 6.5.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -52,6 +52,8 @@ public:
         if (DialogARX->objectName().isEmpty())
             DialogARX->setObjectName("DialogARX");
         DialogARX->resize(400, 300);
+        DialogARX->setMinimumSize(QSize(400, 300));
+        DialogARX->setMaximumSize(QSize(400, 300));
         horizontalLayout = new QHBoxLayout(DialogARX);
         horizontalLayout->setObjectName("horizontalLayout");
         formLayout = new QFormLayout();
@@ -97,35 +99,35 @@ public:
 
         formLayout->setWidget(7, QFormLayout::FieldRole, spinBox);
 
-        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(9, QFormLayout::FieldRole, verticalSpacer);
 
-        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(11, QFormLayout::FieldRole, verticalSpacer_2);
 
-        verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(10, QFormLayout::LabelRole, verticalSpacer_3);
 
-        verticalSpacer_4 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_4 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(8, QFormLayout::LabelRole, verticalSpacer_4);
 
-        verticalSpacer_5 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_5 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(6, QFormLayout::LabelRole, verticalSpacer_5);
 
-        verticalSpacer_6 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_6 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(4, QFormLayout::LabelRole, verticalSpacer_6);
 
-        verticalSpacer_7 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_7 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(12, QFormLayout::LabelRole, verticalSpacer_7);
 
-        verticalSpacer_8 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_8 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(0, QFormLayout::LabelRole, verticalSpacer_8);
 

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'qcustomplot.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.7.3)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -13,16 +13,19 @@
 #include <QtCore/QSharedPointer>
 #include <QtCore/QList>
 
+#if __has_include(<QtCore/qtmochelpers.h>)
 #include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
 
 #include <memory>
 
-
-#include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'qcustomplot.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.7.3. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -38,7 +41,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPPainterENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPPainterENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPPainterENDCLASS = QtMocHelpers::stringData(
     "QCPPainter",
     "PainterMode",
     "pmDefault",
@@ -47,15 +50,45 @@ constexpr auto qt_meta_stringdata_CLASSQCPPainterENDCLASS = QtMocHelpers::string
     "pmNonCosmetic",
     "PainterModes"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPPainterENDCLASS_t {
+    uint offsetsAndSizes[14];
+    char stringdata0[11];
+    char stringdata1[12];
+    char stringdata2[10];
+    char stringdata3[13];
+    char stringdata4[12];
+    char stringdata5[14];
+    char stringdata6[13];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPPainterENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPPainterENDCLASS_t qt_meta_stringdata_CLASSQCPPainterENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 10),  // "QCPPainter"
+        QT_MOC_LITERAL(11, 11),  // "PainterMode"
+        QT_MOC_LITERAL(23, 9),  // "pmDefault"
+        QT_MOC_LITERAL(33, 12),  // "pmVectorized"
+        QT_MOC_LITERAL(46, 11),  // "pmNoCaching"
+        QT_MOC_LITERAL(58, 13),  // "pmNonCosmetic"
+        QT_MOC_LITERAL(72, 12)   // "PainterModes"
+    },
+    "QCPPainter",
+    "PainterMode",
+    "pmDefault",
+    "pmVectorized",
+    "pmNoCaching",
+    "pmNonCosmetic",
+    "PainterModes"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPPainterENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -89,10 +122,6 @@ Q_CONSTINIT const QMetaObject QCPPainter::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPPainterENDCLASS_t,
-        // enum 'PainterMode'
-        QtPrivate::TypeAndForceComplete<QCPPainter::PainterMode, std::true_type>,
-        // enum 'PainterModes'
-        QtPrivate::TypeAndForceComplete<QCPPainter::PainterModes, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPPainter, std::true_type>
     >,
@@ -103,7 +132,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPLayerENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPLayerENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPLayerENDCLASS = QtMocHelpers::stringData(
     "QCPLayer",
     "parentPlot",
     "QCustomPlot*",
@@ -117,15 +146,60 @@ constexpr auto qt_meta_stringdata_CLASSQCPLayerENDCLASS = QtMocHelpers::stringDa
     "lmLogical",
     "lmBuffered"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPLayerENDCLASS_t {
+    uint offsetsAndSizes[24];
+    char stringdata0[9];
+    char stringdata1[11];
+    char stringdata2[13];
+    char stringdata3[5];
+    char stringdata4[6];
+    char stringdata5[9];
+    char stringdata6[21];
+    char stringdata7[8];
+    char stringdata8[5];
+    char stringdata9[10];
+    char stringdata10[10];
+    char stringdata11[11];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPLayerENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPLayerENDCLASS_t qt_meta_stringdata_CLASSQCPLayerENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 8),  // "QCPLayer"
+        QT_MOC_LITERAL(9, 10),  // "parentPlot"
+        QT_MOC_LITERAL(20, 12),  // "QCustomPlot*"
+        QT_MOC_LITERAL(33, 4),  // "name"
+        QT_MOC_LITERAL(38, 5),  // "index"
+        QT_MOC_LITERAL(44, 8),  // "children"
+        QT_MOC_LITERAL(53, 20),  // "QList<QCPLayerable*>"
+        QT_MOC_LITERAL(74, 7),  // "visible"
+        QT_MOC_LITERAL(82, 4),  // "mode"
+        QT_MOC_LITERAL(87, 9),  // "LayerMode"
+        QT_MOC_LITERAL(97, 9),  // "lmLogical"
+        QT_MOC_LITERAL(107, 10)   // "lmBuffered"
+    },
+    "QCPLayer",
+    "parentPlot",
+    "QCustomPlot*",
+    "name",
+    "index",
+    "children",
+    "QList<QCPLayerable*>",
+    "visible",
+    "mode",
+    "LayerMode",
+    "lmLogical",
+    "lmBuffered"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPLayerENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -172,8 +246,6 @@ Q_CONSTINIT const QMetaObject QCPLayer::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<bool, std::true_type>,
         // property 'mode'
         QtPrivate::TypeAndForceComplete<LayerMode, std::true_type>,
-        // enum 'LayerMode'
-        QtPrivate::TypeAndForceComplete<QCPLayer::LayerMode, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPLayer, std::true_type>
     >,
@@ -190,7 +262,7 @@ void QCPLayer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         case 3:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QList<QCPLayerable*> >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPLayer *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -248,7 +320,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPLayerableENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPLayerableENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPLayerableENDCLASS = QtMocHelpers::stringData(
     "QCPLayerable",
     "layerChanged",
     "",
@@ -263,15 +335,63 @@ constexpr auto qt_meta_stringdata_CLASSQCPLayerableENDCLASS = QtMocHelpers::stri
     "QCPLayerable*",
     "antialiased"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPLayerableENDCLASS_t {
+    uint offsetsAndSizes[26];
+    char stringdata0[13];
+    char stringdata1[13];
+    char stringdata2[1];
+    char stringdata3[10];
+    char stringdata4[9];
+    char stringdata5[9];
+    char stringdata6[6];
+    char stringdata7[8];
+    char stringdata8[11];
+    char stringdata9[13];
+    char stringdata10[16];
+    char stringdata11[14];
+    char stringdata12[12];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPLayerableENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPLayerableENDCLASS_t qt_meta_stringdata_CLASSQCPLayerableENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 12),  // "QCPLayerable"
+        QT_MOC_LITERAL(13, 12),  // "layerChanged"
+        QT_MOC_LITERAL(26, 0),  // ""
+        QT_MOC_LITERAL(27, 9),  // "QCPLayer*"
+        QT_MOC_LITERAL(37, 8),  // "newLayer"
+        QT_MOC_LITERAL(46, 8),  // "setLayer"
+        QT_MOC_LITERAL(55, 5),  // "layer"
+        QT_MOC_LITERAL(61, 7),  // "visible"
+        QT_MOC_LITERAL(69, 10),  // "parentPlot"
+        QT_MOC_LITERAL(80, 12),  // "QCustomPlot*"
+        QT_MOC_LITERAL(93, 15),  // "parentLayerable"
+        QT_MOC_LITERAL(109, 13),  // "QCPLayerable*"
+        QT_MOC_LITERAL(123, 11)   // "antialiased"
+    },
+    "QCPLayerable",
+    "layerChanged",
+    "",
+    "QCPLayer*",
+    "newLayer",
+    "setLayer",
+    "layer",
+    "visible",
+    "parentPlot",
+    "QCustomPlot*",
+    "parentLayerable",
+    "QCPLayerable*",
+    "antialiased"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPLayerableENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods
@@ -380,7 +500,7 @@ void QCPLayerable::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 1:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCustomPlot* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPLayerable *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -452,7 +572,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPSelectionRectENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPSelectionRectENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPSelectionRectENDCLASS = QtMocHelpers::stringData(
     "QCPSelectionRect",
     "started",
     "",
@@ -465,15 +585,57 @@ constexpr auto qt_meta_stringdata_CLASSQCPSelectionRectENDCLASS = QtMocHelpers::
     "accepted",
     "cancel"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPSelectionRectENDCLASS_t {
+    uint offsetsAndSizes[22];
+    char stringdata0[17];
+    char stringdata1[8];
+    char stringdata2[1];
+    char stringdata3[13];
+    char stringdata4[6];
+    char stringdata5[8];
+    char stringdata6[5];
+    char stringdata7[9];
+    char stringdata8[13];
+    char stringdata9[9];
+    char stringdata10[7];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPSelectionRectENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPSelectionRectENDCLASS_t qt_meta_stringdata_CLASSQCPSelectionRectENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 16),  // "QCPSelectionRect"
+        QT_MOC_LITERAL(17, 7),  // "started"
+        QT_MOC_LITERAL(25, 0),  // ""
+        QT_MOC_LITERAL(26, 12),  // "QMouseEvent*"
+        QT_MOC_LITERAL(39, 5),  // "event"
+        QT_MOC_LITERAL(45, 7),  // "changed"
+        QT_MOC_LITERAL(53, 4),  // "rect"
+        QT_MOC_LITERAL(58, 8),  // "canceled"
+        QT_MOC_LITERAL(67, 12),  // "QInputEvent*"
+        QT_MOC_LITERAL(80, 8),  // "accepted"
+        QT_MOC_LITERAL(89, 6)   // "cancel"
+    },
+    "QCPSelectionRect",
+    "started",
+    "",
+    "QMouseEvent*",
+    "event",
+    "changed",
+    "rect",
+    "canceled",
+    "QInputEvent*",
+    "accepted",
+    "cancel"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPSelectionRectENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        5,   14, // methods
@@ -641,18 +803,30 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPMarginGroupENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPMarginGroupENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPMarginGroupENDCLASS = QtMocHelpers::stringData(
     "QCPMarginGroup"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPMarginGroupENDCLASS_t {
+    uint offsetsAndSizes[2];
+    char stringdata0[15];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPMarginGroupENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPMarginGroupENDCLASS_t qt_meta_stringdata_CLASSQCPMarginGroupENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 14)   // "QCPMarginGroup"
+    },
+    "QCPMarginGroup"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPMarginGroupENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -708,7 +882,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPLayoutElementENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPLayoutElementENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPLayoutElementENDCLASS = QtMocHelpers::stringData(
     "QCPLayoutElement",
     "layout",
     "QCPLayout*",
@@ -728,15 +902,78 @@ constexpr auto qt_meta_stringdata_CLASSQCPLayoutElementENDCLASS = QtMocHelpers::
     "scrInnerRect",
     "scrOuterRect"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPLayoutElementENDCLASS_t {
+    uint offsetsAndSizes[36];
+    char stringdata0[17];
+    char stringdata1[7];
+    char stringdata2[11];
+    char stringdata3[5];
+    char stringdata4[10];
+    char stringdata5[8];
+    char stringdata6[9];
+    char stringdata7[15];
+    char stringdata8[12];
+    char stringdata9[12];
+    char stringdata10[19];
+    char stringdata11[19];
+    char stringdata12[12];
+    char stringdata13[14];
+    char stringdata14[10];
+    char stringdata15[9];
+    char stringdata16[13];
+    char stringdata17[13];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPLayoutElementENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPLayoutElementENDCLASS_t qt_meta_stringdata_CLASSQCPLayoutElementENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 16),  // "QCPLayoutElement"
+        QT_MOC_LITERAL(17, 6),  // "layout"
+        QT_MOC_LITERAL(24, 10),  // "QCPLayout*"
+        QT_MOC_LITERAL(35, 4),  // "rect"
+        QT_MOC_LITERAL(40, 9),  // "outerRect"
+        QT_MOC_LITERAL(50, 7),  // "margins"
+        QT_MOC_LITERAL(58, 8),  // "QMargins"
+        QT_MOC_LITERAL(67, 14),  // "minimumMargins"
+        QT_MOC_LITERAL(82, 11),  // "minimumSize"
+        QT_MOC_LITERAL(94, 11),  // "maximumSize"
+        QT_MOC_LITERAL(106, 18),  // "sizeConstraintRect"
+        QT_MOC_LITERAL(125, 18),  // "SizeConstraintRect"
+        QT_MOC_LITERAL(144, 11),  // "UpdatePhase"
+        QT_MOC_LITERAL(156, 13),  // "upPreparation"
+        QT_MOC_LITERAL(170, 9),  // "upMargins"
+        QT_MOC_LITERAL(180, 8),  // "upLayout"
+        QT_MOC_LITERAL(189, 12),  // "scrInnerRect"
+        QT_MOC_LITERAL(202, 12)   // "scrOuterRect"
+    },
+    "QCPLayoutElement",
+    "layout",
+    "QCPLayout*",
+    "rect",
+    "outerRect",
+    "margins",
+    "QMargins",
+    "minimumMargins",
+    "minimumSize",
+    "maximumSize",
+    "sizeConstraintRect",
+    "SizeConstraintRect",
+    "UpdatePhase",
+    "upPreparation",
+    "upMargins",
+    "upLayout",
+    "scrInnerRect",
+    "scrOuterRect"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPLayoutElementENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -793,10 +1030,6 @@ Q_CONSTINIT const QMetaObject QCPLayoutElement::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<QSize, std::true_type>,
         // property 'sizeConstraintRect'
         QtPrivate::TypeAndForceComplete<SizeConstraintRect, std::true_type>,
-        // enum 'UpdatePhase'
-        QtPrivate::TypeAndForceComplete<QCPLayoutElement::UpdatePhase, std::true_type>,
-        // enum 'SizeConstraintRect'
-        QtPrivate::TypeAndForceComplete<QCPLayoutElement::SizeConstraintRect, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPLayoutElement, std::true_type>
     >,
@@ -811,7 +1044,7 @@ void QCPLayoutElement::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         case 0:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPLayout* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPLayoutElement *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -875,18 +1108,30 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPLayoutENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPLayoutENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPLayoutENDCLASS = QtMocHelpers::stringData(
     "QCPLayout"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPLayoutENDCLASS_t {
+    uint offsetsAndSizes[2];
+    char stringdata0[10];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPLayoutENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPLayoutENDCLASS_t qt_meta_stringdata_CLASSQCPLayoutENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 9)   // "QCPLayout"
+    },
+    "QCPLayout"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPLayoutENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -942,7 +1187,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPLayoutGridENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPLayoutGridENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPLayoutGridENDCLASS = QtMocHelpers::stringData(
     "QCPLayoutGrid",
     "rowCount",
     "columnCount",
@@ -957,15 +1202,63 @@ constexpr auto qt_meta_stringdata_CLASSQCPLayoutGridENDCLASS = QtMocHelpers::str
     "foRowsFirst",
     "foColumnsFirst"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPLayoutGridENDCLASS_t {
+    uint offsetsAndSizes[26];
+    char stringdata0[14];
+    char stringdata1[9];
+    char stringdata2[12];
+    char stringdata3[21];
+    char stringdata4[14];
+    char stringdata5[18];
+    char stringdata6[14];
+    char stringdata7[11];
+    char stringdata8[10];
+    char stringdata9[10];
+    char stringdata10[5];
+    char stringdata11[12];
+    char stringdata12[15];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPLayoutGridENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPLayoutGridENDCLASS_t qt_meta_stringdata_CLASSQCPLayoutGridENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 13),  // "QCPLayoutGrid"
+        QT_MOC_LITERAL(14, 8),  // "rowCount"
+        QT_MOC_LITERAL(23, 11),  // "columnCount"
+        QT_MOC_LITERAL(35, 20),  // "columnStretchFactors"
+        QT_MOC_LITERAL(56, 13),  // "QList<double>"
+        QT_MOC_LITERAL(70, 17),  // "rowStretchFactors"
+        QT_MOC_LITERAL(88, 13),  // "columnSpacing"
+        QT_MOC_LITERAL(102, 10),  // "rowSpacing"
+        QT_MOC_LITERAL(113, 9),  // "fillOrder"
+        QT_MOC_LITERAL(123, 9),  // "FillOrder"
+        QT_MOC_LITERAL(133, 4),  // "wrap"
+        QT_MOC_LITERAL(138, 11),  // "foRowsFirst"
+        QT_MOC_LITERAL(150, 14)   // "foColumnsFirst"
+    },
+    "QCPLayoutGrid",
+    "rowCount",
+    "columnCount",
+    "columnStretchFactors",
+    "QList<double>",
+    "rowStretchFactors",
+    "columnSpacing",
+    "rowSpacing",
+    "fillOrder",
+    "FillOrder",
+    "wrap",
+    "foRowsFirst",
+    "foColumnsFirst"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPLayoutGridENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -1018,8 +1311,6 @@ Q_CONSTINIT const QMetaObject QCPLayoutGrid::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<FillOrder, std::true_type>,
         // property 'wrap'
         QtPrivate::TypeAndForceComplete<int, std::true_type>,
-        // enum 'FillOrder'
-        QtPrivate::TypeAndForceComplete<QCPLayoutGrid::FillOrder, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPLayoutGrid, std::true_type>
     >,
@@ -1035,7 +1326,7 @@ void QCPLayoutGrid::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 2:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QList<double> >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPLayoutGrid *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -1099,21 +1390,42 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPLayoutInsetENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPLayoutInsetENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPLayoutInsetENDCLASS = QtMocHelpers::stringData(
     "QCPLayoutInset",
     "InsetPlacement",
     "ipFree",
     "ipBorderAligned"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPLayoutInsetENDCLASS_t {
+    uint offsetsAndSizes[8];
+    char stringdata0[15];
+    char stringdata1[15];
+    char stringdata2[7];
+    char stringdata3[16];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPLayoutInsetENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPLayoutInsetENDCLASS_t qt_meta_stringdata_CLASSQCPLayoutInsetENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 14),  // "QCPLayoutInset"
+        QT_MOC_LITERAL(15, 14),  // "InsetPlacement"
+        QT_MOC_LITERAL(30, 6),  // "ipFree"
+        QT_MOC_LITERAL(37, 15)   // "ipBorderAligned"
+    },
+    "QCPLayoutInset",
+    "InsetPlacement",
+    "ipFree",
+    "ipBorderAligned"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPLayoutInsetENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -1140,8 +1452,6 @@ Q_CONSTINIT const QMetaObject QCPLayoutInset::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPLayoutInsetENDCLASS_t,
-        // enum 'InsetPlacement'
-        QtPrivate::TypeAndForceComplete<QCPLayoutInset::InsetPlacement, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPLayoutInset, std::true_type>
     >,
@@ -1178,7 +1488,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPLineEndingENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPLineEndingENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPLineEndingENDCLASS = QtMocHelpers::stringData(
     "QCPLineEnding",
     "EndingStyle",
     "esNone",
@@ -1192,15 +1502,60 @@ constexpr auto qt_meta_stringdata_CLASSQCPLineEndingENDCLASS = QtMocHelpers::str
     "esHalfBar",
     "esSkewedBar"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPLineEndingENDCLASS_t {
+    uint offsetsAndSizes[24];
+    char stringdata0[14];
+    char stringdata1[12];
+    char stringdata2[7];
+    char stringdata3[12];
+    char stringdata4[13];
+    char stringdata5[12];
+    char stringdata6[7];
+    char stringdata7[9];
+    char stringdata8[10];
+    char stringdata9[6];
+    char stringdata10[10];
+    char stringdata11[12];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPLineEndingENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPLineEndingENDCLASS_t qt_meta_stringdata_CLASSQCPLineEndingENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 13),  // "QCPLineEnding"
+        QT_MOC_LITERAL(14, 11),  // "EndingStyle"
+        QT_MOC_LITERAL(26, 6),  // "esNone"
+        QT_MOC_LITERAL(33, 11),  // "esFlatArrow"
+        QT_MOC_LITERAL(45, 12),  // "esSpikeArrow"
+        QT_MOC_LITERAL(58, 11),  // "esLineArrow"
+        QT_MOC_LITERAL(70, 6),  // "esDisc"
+        QT_MOC_LITERAL(77, 8),  // "esSquare"
+        QT_MOC_LITERAL(86, 9),  // "esDiamond"
+        QT_MOC_LITERAL(96, 5),  // "esBar"
+        QT_MOC_LITERAL(102, 9),  // "esHalfBar"
+        QT_MOC_LITERAL(112, 11)   // "esSkewedBar"
+    },
+    "QCPLineEnding",
+    "EndingStyle",
+    "esNone",
+    "esFlatArrow",
+    "esSpikeArrow",
+    "esLineArrow",
+    "esDisc",
+    "esSquare",
+    "esDiamond",
+    "esBar",
+    "esHalfBar",
+    "esSkewedBar"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPLineEndingENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -1235,8 +1590,6 @@ Q_CONSTINIT const QMetaObject QCPLineEnding::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPLineEndingENDCLASS_t,
-        // enum 'EndingStyle'
-        QtPrivate::TypeAndForceComplete<QCPLineEnding::EndingStyle, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPLineEnding, std::true_type>
     >,
@@ -1247,7 +1600,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPLabelPainterPrivateENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPLabelPainterPrivateENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPLabelPainterPrivateENDCLASS = QtMocHelpers::stringData(
     "QCPLabelPainterPrivate",
     "AnchorMode",
     "amRectangular",
@@ -1266,15 +1619,75 @@ constexpr auto qt_meta_stringdata_CLASSQCPLabelPainterPrivateENDCLASS = QtMocHel
     "asBottomRight",
     "asBottomLeft"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPLabelPainterPrivateENDCLASS_t {
+    uint offsetsAndSizes[34];
+    char stringdata0[23];
+    char stringdata1[11];
+    char stringdata2[14];
+    char stringdata3[16];
+    char stringdata4[16];
+    char stringdata5[20];
+    char stringdata6[10];
+    char stringdata7[11];
+    char stringdata8[11];
+    char stringdata9[7];
+    char stringdata10[8];
+    char stringdata11[6];
+    char stringdata12[9];
+    char stringdata13[10];
+    char stringdata14[11];
+    char stringdata15[14];
+    char stringdata16[13];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPLabelPainterPrivateENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPLabelPainterPrivateENDCLASS_t qt_meta_stringdata_CLASSQCPLabelPainterPrivateENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 22),  // "QCPLabelPainterPrivate"
+        QT_MOC_LITERAL(23, 10),  // "AnchorMode"
+        QT_MOC_LITERAL(34, 13),  // "amRectangular"
+        QT_MOC_LITERAL(48, 15),  // "amSkewedUpright"
+        QT_MOC_LITERAL(64, 15),  // "amSkewedRotated"
+        QT_MOC_LITERAL(80, 19),  // "AnchorReferenceType"
+        QT_MOC_LITERAL(100, 9),  // "artNormal"
+        QT_MOC_LITERAL(110, 10),  // "artTangent"
+        QT_MOC_LITERAL(121, 10),  // "AnchorSide"
+        QT_MOC_LITERAL(132, 6),  // "asLeft"
+        QT_MOC_LITERAL(139, 7),  // "asRight"
+        QT_MOC_LITERAL(147, 5),  // "asTop"
+        QT_MOC_LITERAL(153, 8),  // "asBottom"
+        QT_MOC_LITERAL(162, 9),  // "asTopLeft"
+        QT_MOC_LITERAL(172, 10),  // "asTopRight"
+        QT_MOC_LITERAL(183, 13),  // "asBottomRight"
+        QT_MOC_LITERAL(197, 12)   // "asBottomLeft"
+    },
+    "QCPLabelPainterPrivate",
+    "AnchorMode",
+    "amRectangular",
+    "amSkewedUpright",
+    "amSkewedRotated",
+    "AnchorReferenceType",
+    "artNormal",
+    "artTangent",
+    "AnchorSide",
+    "asLeft",
+    "asRight",
+    "asTop",
+    "asBottom",
+    "asTopLeft",
+    "asTopRight",
+    "asBottomRight",
+    "asBottomLeft"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPLabelPainterPrivateENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -1314,12 +1727,6 @@ Q_CONSTINIT const QMetaObject QCPLabelPainterPrivate::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPLabelPainterPrivateENDCLASS_t,
-        // enum 'AnchorMode'
-        QtPrivate::TypeAndForceComplete<QCPLabelPainterPrivate::AnchorMode, std::true_type>,
-        // enum 'AnchorReferenceType'
-        QtPrivate::TypeAndForceComplete<QCPLabelPainterPrivate::AnchorReferenceType, std::true_type>,
-        // enum 'AnchorSide'
-        QtPrivate::TypeAndForceComplete<QCPLabelPainterPrivate::AnchorSide, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPLabelPainterPrivate, std::true_type>
     >,
@@ -1330,21 +1737,42 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPAxisTickerENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPAxisTickerENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPAxisTickerENDCLASS = QtMocHelpers::stringData(
     "QCPAxisTicker",
     "TickStepStrategy",
     "tssReadability",
     "tssMeetTickCount"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPAxisTickerENDCLASS_t {
+    uint offsetsAndSizes[8];
+    char stringdata0[14];
+    char stringdata1[17];
+    char stringdata2[15];
+    char stringdata3[17];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPAxisTickerENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPAxisTickerENDCLASS_t qt_meta_stringdata_CLASSQCPAxisTickerENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 13),  // "QCPAxisTicker"
+        QT_MOC_LITERAL(14, 16),  // "TickStepStrategy"
+        QT_MOC_LITERAL(31, 14),  // "tssReadability"
+        QT_MOC_LITERAL(46, 16)   // "tssMeetTickCount"
+    },
+    "QCPAxisTicker",
+    "TickStepStrategy",
+    "tssReadability",
+    "tssMeetTickCount"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPAxisTickerENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -1371,8 +1799,6 @@ Q_CONSTINIT const QMetaObject QCPAxisTicker::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPAxisTickerENDCLASS_t,
-        // enum 'TickStepStrategy'
-        QtPrivate::TypeAndForceComplete<QCPAxisTicker::TickStepStrategy, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPAxisTicker, std::true_type>
     >,
@@ -1383,7 +1809,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPAxisTickerTimeENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPAxisTickerTimeENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPAxisTickerTimeENDCLASS = QtMocHelpers::stringData(
     "QCPAxisTickerTime",
     "TimeUnit",
     "tuMilliseconds",
@@ -1392,15 +1818,45 @@ constexpr auto qt_meta_stringdata_CLASSQCPAxisTickerTimeENDCLASS = QtMocHelpers:
     "tuHours",
     "tuDays"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPAxisTickerTimeENDCLASS_t {
+    uint offsetsAndSizes[14];
+    char stringdata0[18];
+    char stringdata1[9];
+    char stringdata2[15];
+    char stringdata3[10];
+    char stringdata4[10];
+    char stringdata5[8];
+    char stringdata6[7];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPAxisTickerTimeENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPAxisTickerTimeENDCLASS_t qt_meta_stringdata_CLASSQCPAxisTickerTimeENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 17),  // "QCPAxisTickerTime"
+        QT_MOC_LITERAL(18, 8),  // "TimeUnit"
+        QT_MOC_LITERAL(27, 14),  // "tuMilliseconds"
+        QT_MOC_LITERAL(42, 9),  // "tuSeconds"
+        QT_MOC_LITERAL(52, 9),  // "tuMinutes"
+        QT_MOC_LITERAL(62, 7),  // "tuHours"
+        QT_MOC_LITERAL(70, 6)   // "tuDays"
+    },
+    "QCPAxisTickerTime",
+    "TimeUnit",
+    "tuMilliseconds",
+    "tuSeconds",
+    "tuMinutes",
+    "tuHours",
+    "tuDays"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPAxisTickerTimeENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -1430,8 +1886,6 @@ Q_CONSTINIT const QMetaObject QCPAxisTickerTime::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPAxisTickerTimeENDCLASS_t,
-        // enum 'TimeUnit'
-        QtPrivate::TypeAndForceComplete<QCPAxisTickerTime::TimeUnit, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPAxisTickerTime, std::true_type>
     >,
@@ -1442,22 +1896,46 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPAxisTickerFixedENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPAxisTickerFixedENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPAxisTickerFixedENDCLASS = QtMocHelpers::stringData(
     "QCPAxisTickerFixed",
     "ScaleStrategy",
     "ssNone",
     "ssMultiples",
     "ssPowers"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPAxisTickerFixedENDCLASS_t {
+    uint offsetsAndSizes[10];
+    char stringdata0[19];
+    char stringdata1[14];
+    char stringdata2[7];
+    char stringdata3[12];
+    char stringdata4[9];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPAxisTickerFixedENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPAxisTickerFixedENDCLASS_t qt_meta_stringdata_CLASSQCPAxisTickerFixedENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 18),  // "QCPAxisTickerFixed"
+        QT_MOC_LITERAL(19, 13),  // "ScaleStrategy"
+        QT_MOC_LITERAL(33, 6),  // "ssNone"
+        QT_MOC_LITERAL(40, 11),  // "ssMultiples"
+        QT_MOC_LITERAL(52, 8)   // "ssPowers"
+    },
+    "QCPAxisTickerFixed",
+    "ScaleStrategy",
+    "ssNone",
+    "ssMultiples",
+    "ssPowers"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPAxisTickerFixedENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -1485,8 +1963,6 @@ Q_CONSTINIT const QMetaObject QCPAxisTickerFixed::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPAxisTickerFixedENDCLASS_t,
-        // enum 'ScaleStrategy'
-        QtPrivate::TypeAndForceComplete<QCPAxisTickerFixed::ScaleStrategy, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPAxisTickerFixed, std::true_type>
     >,
@@ -1497,22 +1973,46 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPAxisTickerPiENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPAxisTickerPiENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPAxisTickerPiENDCLASS = QtMocHelpers::stringData(
     "QCPAxisTickerPi",
     "FractionStyle",
     "fsFloatingPoint",
     "fsAsciiFractions",
     "fsUnicodeFractions"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPAxisTickerPiENDCLASS_t {
+    uint offsetsAndSizes[10];
+    char stringdata0[16];
+    char stringdata1[14];
+    char stringdata2[16];
+    char stringdata3[17];
+    char stringdata4[19];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPAxisTickerPiENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPAxisTickerPiENDCLASS_t qt_meta_stringdata_CLASSQCPAxisTickerPiENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 15),  // "QCPAxisTickerPi"
+        QT_MOC_LITERAL(16, 13),  // "FractionStyle"
+        QT_MOC_LITERAL(30, 15),  // "fsFloatingPoint"
+        QT_MOC_LITERAL(46, 16),  // "fsAsciiFractions"
+        QT_MOC_LITERAL(63, 18)   // "fsUnicodeFractions"
+    },
+    "QCPAxisTickerPi",
+    "FractionStyle",
+    "fsFloatingPoint",
+    "fsAsciiFractions",
+    "fsUnicodeFractions"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPAxisTickerPiENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -1540,8 +2040,6 @@ Q_CONSTINIT const QMetaObject QCPAxisTickerPi::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPAxisTickerPiENDCLASS_t,
-        // enum 'FractionStyle'
-        QtPrivate::TypeAndForceComplete<QCPAxisTickerPi::FractionStyle, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPAxisTickerPi, std::true_type>
     >,
@@ -1552,7 +2050,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPGridENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPGridENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPGridENDCLASS = QtMocHelpers::stringData(
     "QCPGrid",
     "subGridVisible",
     "antialiasedSubGrid",
@@ -1561,15 +2059,45 @@ constexpr auto qt_meta_stringdata_CLASSQCPGridENDCLASS = QtMocHelpers::stringDat
     "subGridPen",
     "zeroLinePen"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPGridENDCLASS_t {
+    uint offsetsAndSizes[14];
+    char stringdata0[8];
+    char stringdata1[15];
+    char stringdata2[19];
+    char stringdata3[20];
+    char stringdata4[4];
+    char stringdata5[11];
+    char stringdata6[12];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPGridENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPGridENDCLASS_t qt_meta_stringdata_CLASSQCPGridENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 7),  // "QCPGrid"
+        QT_MOC_LITERAL(8, 14),  // "subGridVisible"
+        QT_MOC_LITERAL(23, 18),  // "antialiasedSubGrid"
+        QT_MOC_LITERAL(42, 19),  // "antialiasedZeroLine"
+        QT_MOC_LITERAL(62, 3),  // "pen"
+        QT_MOC_LITERAL(66, 10),  // "subGridPen"
+        QT_MOC_LITERAL(77, 11)   // "zeroLinePen"
+    },
+    "QCPGrid",
+    "subGridVisible",
+    "antialiasedSubGrid",
+    "antialiasedZeroLine",
+    "pen",
+    "subGridPen",
+    "zeroLinePen"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPGridENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -1682,7 +2210,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPAxisENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPAxisENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPAxisENDCLASS = QtMocHelpers::stringData(
     "QCPAxis",
     "rangeChanged",
     "",
@@ -1767,15 +2295,273 @@ constexpr auto qt_meta_stringdata_CLASSQCPAxisENDCLASS = QtMocHelpers::stringDat
     "spTickLabels",
     "spAxisLabel"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPAxisENDCLASS_t {
+    uint offsetsAndSizes[166];
+    char stringdata0[8];
+    char stringdata1[13];
+    char stringdata2[1];
+    char stringdata3[9];
+    char stringdata4[9];
+    char stringdata5[9];
+    char stringdata6[17];
+    char stringdata7[19];
+    char stringdata8[10];
+    char stringdata9[17];
+    char stringdata10[25];
+    char stringdata11[6];
+    char stringdata12[18];
+    char stringdata13[13];
+    char stringdata14[5];
+    char stringdata15[9];
+    char stringdata16[6];
+    char stringdata17[19];
+    char stringdata18[16];
+    char stringdata19[17];
+    char stringdata20[14];
+    char stringdata21[9];
+    char stringdata22[9];
+    char stringdata23[9];
+    char stringdata24[13];
+    char stringdata25[10];
+    char stringdata26[14];
+    char stringdata27[7];
+    char stringdata28[30];
+    char stringdata29[6];
+    char stringdata30[11];
+    char stringdata31[17];
+    char stringdata32[14];
+    char stringdata33[15];
+    char stringdata34[18];
+    char stringdata35[14];
+    char stringdata36[10];
+    char stringdata37[13];
+    char stringdata38[16];
+    char stringdata39[11];
+    char stringdata40[14];
+    char stringdata41[17];
+    char stringdata42[13];
+    char stringdata43[14];
+    char stringdata44[9];
+    char stringdata45[16];
+    char stringdata46[17];
+    char stringdata47[8];
+    char stringdata48[8];
+    char stringdata49[11];
+    char stringdata50[10];
+    char stringdata51[11];
+    char stringdata52[6];
+    char stringdata53[13];
+    char stringdata54[8];
+    char stringdata55[7];
+    char stringdata56[16];
+    char stringdata57[22];
+    char stringdata58[18];
+    char stringdata59[23];
+    char stringdata60[19];
+    char stringdata61[16];
+    char stringdata62[16];
+    char stringdata63[19];
+    char stringdata64[12];
+    char stringdata65[14];
+    char stringdata66[12];
+    char stringdata67[5];
+    char stringdata68[9];
+    char stringdata69[7];
+    char stringdata70[8];
+    char stringdata71[6];
+    char stringdata72[9];
+    char stringdata73[10];
+    char stringdata74[9];
+    char stringdata75[10];
+    char stringdata76[9];
+    char stringdata77[14];
+    char stringdata78[15];
+    char stringdata79[7];
+    char stringdata80[7];
+    char stringdata81[13];
+    char stringdata82[12];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPAxisENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPAxisENDCLASS_t qt_meta_stringdata_CLASSQCPAxisENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 7),  // "QCPAxis"
+        QT_MOC_LITERAL(8, 12),  // "rangeChanged"
+        QT_MOC_LITERAL(21, 0),  // ""
+        QT_MOC_LITERAL(22, 8),  // "QCPRange"
+        QT_MOC_LITERAL(31, 8),  // "newRange"
+        QT_MOC_LITERAL(40, 8),  // "oldRange"
+        QT_MOC_LITERAL(49, 16),  // "scaleTypeChanged"
+        QT_MOC_LITERAL(66, 18),  // "QCPAxis::ScaleType"
+        QT_MOC_LITERAL(85, 9),  // "scaleType"
+        QT_MOC_LITERAL(95, 16),  // "selectionChanged"
+        QT_MOC_LITERAL(112, 24),  // "QCPAxis::SelectableParts"
+        QT_MOC_LITERAL(137, 5),  // "parts"
+        QT_MOC_LITERAL(143, 17),  // "selectableChanged"
+        QT_MOC_LITERAL(161, 12),  // "setScaleType"
+        QT_MOC_LITERAL(174, 4),  // "type"
+        QT_MOC_LITERAL(179, 8),  // "setRange"
+        QT_MOC_LITERAL(188, 5),  // "range"
+        QT_MOC_LITERAL(194, 18),  // "setSelectableParts"
+        QT_MOC_LITERAL(213, 15),  // "selectableParts"
+        QT_MOC_LITERAL(229, 16),  // "setSelectedParts"
+        QT_MOC_LITERAL(246, 13),  // "selectedParts"
+        QT_MOC_LITERAL(260, 8),  // "axisType"
+        QT_MOC_LITERAL(269, 8),  // "AxisType"
+        QT_MOC_LITERAL(278, 8),  // "axisRect"
+        QT_MOC_LITERAL(287, 12),  // "QCPAxisRect*"
+        QT_MOC_LITERAL(300, 9),  // "ScaleType"
+        QT_MOC_LITERAL(310, 13),  // "rangeReversed"
+        QT_MOC_LITERAL(324, 6),  // "ticker"
+        QT_MOC_LITERAL(331, 29),  // "QSharedPointer<QCPAxisTicker>"
+        QT_MOC_LITERAL(361, 5),  // "ticks"
+        QT_MOC_LITERAL(367, 10),  // "tickLabels"
+        QT_MOC_LITERAL(378, 16),  // "tickLabelPadding"
+        QT_MOC_LITERAL(395, 13),  // "tickLabelFont"
+        QT_MOC_LITERAL(409, 14),  // "tickLabelColor"
+        QT_MOC_LITERAL(424, 17),  // "tickLabelRotation"
+        QT_MOC_LITERAL(442, 13),  // "tickLabelSide"
+        QT_MOC_LITERAL(456, 9),  // "LabelSide"
+        QT_MOC_LITERAL(466, 12),  // "numberFormat"
+        QT_MOC_LITERAL(479, 15),  // "numberPrecision"
+        QT_MOC_LITERAL(495, 10),  // "tickVector"
+        QT_MOC_LITERAL(506, 13),  // "QList<double>"
+        QT_MOC_LITERAL(520, 16),  // "tickVectorLabels"
+        QT_MOC_LITERAL(537, 12),  // "tickLengthIn"
+        QT_MOC_LITERAL(550, 13),  // "tickLengthOut"
+        QT_MOC_LITERAL(564, 8),  // "subTicks"
+        QT_MOC_LITERAL(573, 15),  // "subTickLengthIn"
+        QT_MOC_LITERAL(589, 16),  // "subTickLengthOut"
+        QT_MOC_LITERAL(606, 7),  // "basePen"
+        QT_MOC_LITERAL(614, 7),  // "tickPen"
+        QT_MOC_LITERAL(622, 10),  // "subTickPen"
+        QT_MOC_LITERAL(633, 9),  // "labelFont"
+        QT_MOC_LITERAL(643, 10),  // "labelColor"
+        QT_MOC_LITERAL(654, 5),  // "label"
+        QT_MOC_LITERAL(660, 12),  // "labelPadding"
+        QT_MOC_LITERAL(673, 7),  // "padding"
+        QT_MOC_LITERAL(681, 6),  // "offset"
+        QT_MOC_LITERAL(688, 15),  // "SelectableParts"
+        QT_MOC_LITERAL(704, 21),  // "selectedTickLabelFont"
+        QT_MOC_LITERAL(726, 17),  // "selectedLabelFont"
+        QT_MOC_LITERAL(744, 22),  // "selectedTickLabelColor"
+        QT_MOC_LITERAL(767, 18),  // "selectedLabelColor"
+        QT_MOC_LITERAL(786, 15),  // "selectedBasePen"
+        QT_MOC_LITERAL(802, 15),  // "selectedTickPen"
+        QT_MOC_LITERAL(818, 18),  // "selectedSubTickPen"
+        QT_MOC_LITERAL(837, 11),  // "lowerEnding"
+        QT_MOC_LITERAL(849, 13),  // "QCPLineEnding"
+        QT_MOC_LITERAL(863, 11),  // "upperEnding"
+        QT_MOC_LITERAL(875, 4),  // "grid"
+        QT_MOC_LITERAL(880, 8),  // "QCPGrid*"
+        QT_MOC_LITERAL(889, 6),  // "atLeft"
+        QT_MOC_LITERAL(896, 7),  // "atRight"
+        QT_MOC_LITERAL(904, 5),  // "atTop"
+        QT_MOC_LITERAL(910, 8),  // "atBottom"
+        QT_MOC_LITERAL(919, 9),  // "AxisTypes"
+        QT_MOC_LITERAL(929, 8),  // "lsInside"
+        QT_MOC_LITERAL(938, 9),  // "lsOutside"
+        QT_MOC_LITERAL(948, 8),  // "stLinear"
+        QT_MOC_LITERAL(957, 13),  // "stLogarithmic"
+        QT_MOC_LITERAL(971, 14),  // "SelectablePart"
+        QT_MOC_LITERAL(986, 6),  // "spNone"
+        QT_MOC_LITERAL(993, 6),  // "spAxis"
+        QT_MOC_LITERAL(1000, 12),  // "spTickLabels"
+        QT_MOC_LITERAL(1013, 11)   // "spAxisLabel"
+    },
+    "QCPAxis",
+    "rangeChanged",
+    "",
+    "QCPRange",
+    "newRange",
+    "oldRange",
+    "scaleTypeChanged",
+    "QCPAxis::ScaleType",
+    "scaleType",
+    "selectionChanged",
+    "QCPAxis::SelectableParts",
+    "parts",
+    "selectableChanged",
+    "setScaleType",
+    "type",
+    "setRange",
+    "range",
+    "setSelectableParts",
+    "selectableParts",
+    "setSelectedParts",
+    "selectedParts",
+    "axisType",
+    "AxisType",
+    "axisRect",
+    "QCPAxisRect*",
+    "ScaleType",
+    "rangeReversed",
+    "ticker",
+    "QSharedPointer<QCPAxisTicker>",
+    "ticks",
+    "tickLabels",
+    "tickLabelPadding",
+    "tickLabelFont",
+    "tickLabelColor",
+    "tickLabelRotation",
+    "tickLabelSide",
+    "LabelSide",
+    "numberFormat",
+    "numberPrecision",
+    "tickVector",
+    "QList<double>",
+    "tickVectorLabels",
+    "tickLengthIn",
+    "tickLengthOut",
+    "subTicks",
+    "subTickLengthIn",
+    "subTickLengthOut",
+    "basePen",
+    "tickPen",
+    "subTickPen",
+    "labelFont",
+    "labelColor",
+    "label",
+    "labelPadding",
+    "padding",
+    "offset",
+    "SelectableParts",
+    "selectedTickLabelFont",
+    "selectedLabelFont",
+    "selectedTickLabelColor",
+    "selectedLabelColor",
+    "selectedBasePen",
+    "selectedTickPen",
+    "selectedSubTickPen",
+    "lowerEnding",
+    "QCPLineEnding",
+    "upperEnding",
+    "grid",
+    "QCPGrid*",
+    "atLeft",
+    "atRight",
+    "atTop",
+    "atBottom",
+    "AxisTypes",
+    "lsInside",
+    "lsOutside",
+    "stLinear",
+    "stLogarithmic",
+    "SelectablePart",
+    "spNone",
+    "spAxis",
+    "spTickLabels",
+    "spAxisLabel"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPAxisENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        9,   14, // methods
@@ -1786,17 +2572,17 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSQCPAxisENDCLASS[] = {
        5,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   68,    2, 0x06,   50 /* Public */,
-       1,    2,   71,    2, 0x06,   52 /* Public */,
-       6,    1,   76,    2, 0x06,   55 /* Public */,
-       9,    1,   79,    2, 0x06,   57 /* Public */,
-      12,    1,   82,    2, 0x06,   59 /* Public */,
+       1,    1,   68,    2, 0x06,   44 /* Public */,
+       1,    2,   71,    2, 0x06,   46 /* Public */,
+       6,    1,   76,    2, 0x06,   49 /* Public */,
+       9,    1,   79,    2, 0x06,   51 /* Public */,
+      12,    1,   82,    2, 0x06,   53 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      13,    1,   85,    2, 0x0a,   61 /* Public */,
-      15,    1,   88,    2, 0x0a,   63 /* Public */,
-      17,    1,   91,    2, 0x0a,   65 /* Public */,
-      19,    1,   94,    2, 0x0a,   67 /* Public */,
+      13,    1,   85,    2, 0x0a,   55 /* Public */,
+      15,    1,   88,    2, 0x0a,   57 /* Public */,
+      17,    1,   91,    2, 0x0a,   59 /* Public */,
+      19,    1,   94,    2, 0x0a,   61 /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
@@ -1982,18 +2768,6 @@ Q_CONSTINIT const QMetaObject QCPAxis::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<QCPLineEnding, std::true_type>,
         // property 'grid'
         QtPrivate::TypeAndForceComplete<QCPGrid*, std::true_type>,
-        // enum 'AxisType'
-        QtPrivate::TypeAndForceComplete<QCPAxis::AxisType, std::true_type>,
-        // enum 'AxisTypes'
-        QtPrivate::TypeAndForceComplete<QCPAxis::AxisTypes, std::true_type>,
-        // enum 'LabelSide'
-        QtPrivate::TypeAndForceComplete<QCPAxis::LabelSide, std::true_type>,
-        // enum 'ScaleType'
-        QtPrivate::TypeAndForceComplete<QCPAxis::ScaleType, std::true_type>,
-        // enum 'SelectablePart'
-        QtPrivate::TypeAndForceComplete<QCPAxis::SelectablePart, std::true_type>,
-        // enum 'SelectableParts'
-        QtPrivate::TypeAndForceComplete<QCPAxis::SelectableParts, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPAxis, std::true_type>,
         // method 'rangeChanged'
@@ -2112,7 +2886,7 @@ void QCPAxis::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 5:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QSharedPointer<QCPAxisTicker> >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPAxis *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -2285,7 +3059,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPScatterStyleENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPScatterStyleENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPScatterStyleENDCLASS = QtMocHelpers::stringData(
     "QCPScatterStyle",
     "ScatterProperty",
     "spNone",
@@ -2315,15 +3089,108 @@ constexpr auto qt_meta_stringdata_CLASSQCPScatterStyleENDCLASS = QtMocHelpers::s
     "ssPixmap",
     "ssCustom"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPScatterStyleENDCLASS_t {
+    uint offsetsAndSizes[56];
+    char stringdata0[16];
+    char stringdata1[16];
+    char stringdata2[7];
+    char stringdata3[6];
+    char stringdata4[8];
+    char stringdata5[7];
+    char stringdata6[8];
+    char stringdata7[6];
+    char stringdata8[18];
+    char stringdata9[13];
+    char stringdata10[7];
+    char stringdata11[6];
+    char stringdata12[8];
+    char stringdata13[7];
+    char stringdata14[9];
+    char stringdata15[7];
+    char stringdata16[9];
+    char stringdata17[10];
+    char stringdata18[7];
+    char stringdata19[11];
+    char stringdata20[19];
+    char stringdata21[14];
+    char stringdata22[13];
+    char stringdata23[14];
+    char stringdata24[13];
+    char stringdata25[8];
+    char stringdata26[9];
+    char stringdata27[9];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPScatterStyleENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPScatterStyleENDCLASS_t qt_meta_stringdata_CLASSQCPScatterStyleENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 15),  // "QCPScatterStyle"
+        QT_MOC_LITERAL(16, 15),  // "ScatterProperty"
+        QT_MOC_LITERAL(32, 6),  // "spNone"
+        QT_MOC_LITERAL(39, 5),  // "spPen"
+        QT_MOC_LITERAL(45, 7),  // "spBrush"
+        QT_MOC_LITERAL(53, 6),  // "spSize"
+        QT_MOC_LITERAL(60, 7),  // "spShape"
+        QT_MOC_LITERAL(68, 5),  // "spAll"
+        QT_MOC_LITERAL(74, 17),  // "ScatterProperties"
+        QT_MOC_LITERAL(92, 12),  // "ScatterShape"
+        QT_MOC_LITERAL(105, 6),  // "ssNone"
+        QT_MOC_LITERAL(112, 5),  // "ssDot"
+        QT_MOC_LITERAL(118, 7),  // "ssCross"
+        QT_MOC_LITERAL(126, 6),  // "ssPlus"
+        QT_MOC_LITERAL(133, 8),  // "ssCircle"
+        QT_MOC_LITERAL(142, 6),  // "ssDisc"
+        QT_MOC_LITERAL(149, 8),  // "ssSquare"
+        QT_MOC_LITERAL(158, 9),  // "ssDiamond"
+        QT_MOC_LITERAL(168, 6),  // "ssStar"
+        QT_MOC_LITERAL(175, 10),  // "ssTriangle"
+        QT_MOC_LITERAL(186, 18),  // "ssTriangleInverted"
+        QT_MOC_LITERAL(205, 13),  // "ssCrossSquare"
+        QT_MOC_LITERAL(219, 12),  // "ssPlusSquare"
+        QT_MOC_LITERAL(232, 13),  // "ssCrossCircle"
+        QT_MOC_LITERAL(246, 12),  // "ssPlusCircle"
+        QT_MOC_LITERAL(259, 7),  // "ssPeace"
+        QT_MOC_LITERAL(267, 8),  // "ssPixmap"
+        QT_MOC_LITERAL(276, 8)   // "ssCustom"
+    },
+    "QCPScatterStyle",
+    "ScatterProperty",
+    "spNone",
+    "spPen",
+    "spBrush",
+    "spSize",
+    "spShape",
+    "spAll",
+    "ScatterProperties",
+    "ScatterShape",
+    "ssNone",
+    "ssDot",
+    "ssCross",
+    "ssPlus",
+    "ssCircle",
+    "ssDisc",
+    "ssSquare",
+    "ssDiamond",
+    "ssStar",
+    "ssTriangle",
+    "ssTriangleInverted",
+    "ssCrossSquare",
+    "ssPlusSquare",
+    "ssCrossCircle",
+    "ssPlusCircle",
+    "ssPeace",
+    "ssPixmap",
+    "ssCustom"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPScatterStyleENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -2380,12 +3247,6 @@ Q_CONSTINIT const QMetaObject QCPScatterStyle::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPScatterStyleENDCLASS_t,
-        // enum 'ScatterProperty'
-        QtPrivate::TypeAndForceComplete<QCPScatterStyle::ScatterProperty, std::true_type>,
-        // enum 'ScatterProperties'
-        QtPrivate::TypeAndForceComplete<QCPScatterStyle::ScatterProperties, std::true_type>,
-        // enum 'ScatterShape'
-        QtPrivate::TypeAndForceComplete<QCPScatterStyle::ScatterShape, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPScatterStyle, std::true_type>
     >,
@@ -2396,18 +3257,30 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPSelectionDecoratorENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPSelectionDecoratorENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPSelectionDecoratorENDCLASS = QtMocHelpers::stringData(
     "QCPSelectionDecorator"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPSelectionDecoratorENDCLASS_t {
+    uint offsetsAndSizes[2];
+    char stringdata0[22];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPSelectionDecoratorENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPSelectionDecoratorENDCLASS_t qt_meta_stringdata_CLASSQCPSelectionDecoratorENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 21)   // "QCPSelectionDecorator"
+    },
+    "QCPSelectionDecorator"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPSelectionDecoratorENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -2437,7 +3310,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPAbstractPlottableENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPAbstractPlottableENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPAbstractPlottableENDCLASS = QtMocHelpers::stringData(
     "QCPAbstractPlottable",
     "selectionChanged",
     "",
@@ -2460,15 +3333,87 @@ constexpr auto qt_meta_stringdata_CLASSQCPAbstractPlottableENDCLASS = QtMocHelpe
     "selectionDecorator",
     "QCPSelectionDecorator*"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPAbstractPlottableENDCLASS_t {
+    uint offsetsAndSizes[42];
+    char stringdata0[21];
+    char stringdata1[17];
+    char stringdata2[1];
+    char stringdata3[9];
+    char stringdata4[17];
+    char stringdata5[10];
+    char stringdata6[18];
+    char stringdata7[19];
+    char stringdata8[11];
+    char stringdata9[14];
+    char stringdata10[13];
+    char stringdata11[5];
+    char stringdata12[16];
+    char stringdata13[20];
+    char stringdata14[4];
+    char stringdata15[6];
+    char stringdata16[8];
+    char stringdata17[9];
+    char stringdata18[10];
+    char stringdata19[19];
+    char stringdata20[23];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPAbstractPlottableENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPAbstractPlottableENDCLASS_t qt_meta_stringdata_CLASSQCPAbstractPlottableENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 20),  // "QCPAbstractPlottable"
+        QT_MOC_LITERAL(21, 16),  // "selectionChanged"
+        QT_MOC_LITERAL(38, 0),  // ""
+        QT_MOC_LITERAL(39, 8),  // "selected"
+        QT_MOC_LITERAL(48, 16),  // "QCPDataSelection"
+        QT_MOC_LITERAL(65, 9),  // "selection"
+        QT_MOC_LITERAL(75, 17),  // "selectableChanged"
+        QT_MOC_LITERAL(93, 18),  // "QCP::SelectionType"
+        QT_MOC_LITERAL(112, 10),  // "selectable"
+        QT_MOC_LITERAL(123, 13),  // "setSelectable"
+        QT_MOC_LITERAL(137, 12),  // "setSelection"
+        QT_MOC_LITERAL(150, 4),  // "name"
+        QT_MOC_LITERAL(155, 15),  // "antialiasedFill"
+        QT_MOC_LITERAL(171, 19),  // "antialiasedScatters"
+        QT_MOC_LITERAL(191, 3),  // "pen"
+        QT_MOC_LITERAL(195, 5),  // "brush"
+        QT_MOC_LITERAL(201, 7),  // "keyAxis"
+        QT_MOC_LITERAL(209, 8),  // "QCPAxis*"
+        QT_MOC_LITERAL(218, 9),  // "valueAxis"
+        QT_MOC_LITERAL(228, 18),  // "selectionDecorator"
+        QT_MOC_LITERAL(247, 22)   // "QCPSelectionDecorator*"
+    },
+    "QCPAbstractPlottable",
+    "selectionChanged",
+    "",
+    "selected",
+    "QCPDataSelection",
+    "selection",
+    "selectableChanged",
+    "QCP::SelectionType",
+    "selectable",
+    "setSelectable",
+    "setSelection",
+    "name",
+    "antialiasedFill",
+    "antialiasedScatters",
+    "pen",
+    "brush",
+    "keyAxis",
+    "QCPAxis*",
+    "valueAxis",
+    "selectionDecorator",
+    "QCPSelectionDecorator*"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPAbstractPlottableENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        5,   14, // methods
@@ -2629,7 +3574,7 @@ void QCPAbstractPlottable::qt_static_metacall(QObject *_o, QMetaObject::Call _c,
         case 9:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPSelectionDecorator* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPAbstractPlottable *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -2727,18 +3672,30 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemAnchorENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemAnchorENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemAnchorENDCLASS = QtMocHelpers::stringData(
     "QCPItemAnchor"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemAnchorENDCLASS_t {
+    uint offsetsAndSizes[2];
+    char stringdata0[14];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemAnchorENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemAnchorENDCLASS_t qt_meta_stringdata_CLASSQCPItemAnchorENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 13)   // "QCPItemAnchor"
+    },
+    "QCPItemAnchor"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemAnchorENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -2768,7 +3725,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemPositionENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemPositionENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemPositionENDCLASS = QtMocHelpers::stringData(
     "QCPItemPosition",
     "PositionType",
     "ptAbsolute",
@@ -2776,15 +3733,42 @@ constexpr auto qt_meta_stringdata_CLASSQCPItemPositionENDCLASS = QtMocHelpers::s
     "ptAxisRectRatio",
     "ptPlotCoords"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemPositionENDCLASS_t {
+    uint offsetsAndSizes[12];
+    char stringdata0[16];
+    char stringdata1[13];
+    char stringdata2[11];
+    char stringdata3[16];
+    char stringdata4[16];
+    char stringdata5[13];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemPositionENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemPositionENDCLASS_t qt_meta_stringdata_CLASSQCPItemPositionENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 15),  // "QCPItemPosition"
+        QT_MOC_LITERAL(16, 12),  // "PositionType"
+        QT_MOC_LITERAL(29, 10),  // "ptAbsolute"
+        QT_MOC_LITERAL(40, 15),  // "ptViewportRatio"
+        QT_MOC_LITERAL(56, 15),  // "ptAxisRectRatio"
+        QT_MOC_LITERAL(72, 12)   // "ptPlotCoords"
+    },
+    "QCPItemPosition",
+    "PositionType",
+    "ptAbsolute",
+    "ptViewportRatio",
+    "ptAxisRectRatio",
+    "ptPlotCoords"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemPositionENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -2813,8 +3797,6 @@ Q_CONSTINIT const QMetaObject QCPItemPosition::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPItemPositionENDCLASS_t,
-        // enum 'PositionType'
-        QtPrivate::TypeAndForceComplete<QCPItemPosition::PositionType, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPItemPosition, std::true_type>
     >,
@@ -2825,7 +3807,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPAbstractItemENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPAbstractItemENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPAbstractItemENDCLASS = QtMocHelpers::stringData(
     "QCPAbstractItem",
     "selectionChanged",
     "",
@@ -2838,15 +3820,57 @@ constexpr auto qt_meta_stringdata_CLASSQCPAbstractItemENDCLASS = QtMocHelpers::s
     "clipAxisRect",
     "QCPAxisRect*"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPAbstractItemENDCLASS_t {
+    uint offsetsAndSizes[22];
+    char stringdata0[16];
+    char stringdata1[17];
+    char stringdata2[1];
+    char stringdata3[9];
+    char stringdata4[18];
+    char stringdata5[11];
+    char stringdata6[14];
+    char stringdata7[12];
+    char stringdata8[15];
+    char stringdata9[13];
+    char stringdata10[13];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPAbstractItemENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPAbstractItemENDCLASS_t qt_meta_stringdata_CLASSQCPAbstractItemENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 15),  // "QCPAbstractItem"
+        QT_MOC_LITERAL(16, 16),  // "selectionChanged"
+        QT_MOC_LITERAL(33, 0),  // ""
+        QT_MOC_LITERAL(34, 8),  // "selected"
+        QT_MOC_LITERAL(43, 17),  // "selectableChanged"
+        QT_MOC_LITERAL(61, 10),  // "selectable"
+        QT_MOC_LITERAL(72, 13),  // "setSelectable"
+        QT_MOC_LITERAL(86, 11),  // "setSelected"
+        QT_MOC_LITERAL(98, 14),  // "clipToAxisRect"
+        QT_MOC_LITERAL(113, 12),  // "clipAxisRect"
+        QT_MOC_LITERAL(126, 12)   // "QCPAxisRect*"
+    },
+    "QCPAbstractItem",
+    "selectionChanged",
+    "",
+    "selected",
+    "selectableChanged",
+    "selectable",
+    "setSelectable",
+    "setSelected",
+    "clipToAxisRect",
+    "clipAxisRect",
+    "QCPAxisRect*"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPAbstractItemENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        4,   14, // methods
@@ -2948,7 +3972,7 @@ void QCPAbstractItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         case 1:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPAxisRect* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPAbstractItem *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -3027,7 +4051,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCustomPlotENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCustomPlotENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCustomPlotENDCLASS = QtMocHelpers::stringData(
     "QCustomPlot",
     "mouseDoubleClick",
     "",
@@ -3094,15 +4118,219 @@ constexpr auto qt_meta_stringdata_CLASSQCustomPlotENDCLASS = QtMocHelpers::strin
     "rpRefreshHint",
     "rpQueuedReplot"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCustomPlotENDCLASS_t {
+    uint offsetsAndSizes[130];
+    char stringdata0[12];
+    char stringdata1[17];
+    char stringdata2[1];
+    char stringdata3[13];
+    char stringdata4[6];
+    char stringdata5[11];
+    char stringdata6[10];
+    char stringdata7[13];
+    char stringdata8[11];
+    char stringdata9[13];
+    char stringdata10[15];
+    char stringdata11[22];
+    char stringdata12[10];
+    char stringdata13[10];
+    char stringdata14[21];
+    char stringdata15[10];
+    char stringdata16[17];
+    char stringdata17[5];
+    char stringdata18[16];
+    char stringdata19[10];
+    char stringdata20[9];
+    char stringdata21[5];
+    char stringdata22[24];
+    char stringdata23[5];
+    char stringdata24[16];
+    char stringdata25[12];
+    char stringdata26[11];
+    char stringdata27[7];
+    char stringdata28[23];
+    char stringdata29[18];
+    char stringdata30[23];
+    char stringdata31[13];
+    char stringdata32[12];
+    char stringdata33[12];
+    char stringdata34[12];
+    char stringdata35[22];
+    char stringdata36[12];
+    char stringdata37[7];
+    char stringdata38[29];
+    char stringdata39[16];
+    char stringdata40[21];
+    char stringdata41[5];
+    char stringdata42[16];
+    char stringdata43[22];
+    char stringdata44[9];
+    char stringdata45[11];
+    char stringdata46[17];
+    char stringdata47[21];
+    char stringdata48[20];
+    char stringdata49[11];
+    char stringdata50[15];
+    char stringdata51[25];
+    char stringdata52[19];
+    char stringdata53[21];
+    char stringdata54[20];
+    char stringdata55[21];
+    char stringdata56[7];
+    char stringdata57[16];
+    char stringdata58[9];
+    char stringdata59[9];
+    char stringdata60[16];
+    char stringdata61[19];
+    char stringdata62[16];
+    char stringdata63[14];
+    char stringdata64[15];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCustomPlotENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCustomPlotENDCLASS_t qt_meta_stringdata_CLASSQCustomPlotENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 11),  // "QCustomPlot"
+        QT_MOC_LITERAL(12, 16),  // "mouseDoubleClick"
+        QT_MOC_LITERAL(29, 0),  // ""
+        QT_MOC_LITERAL(30, 12),  // "QMouseEvent*"
+        QT_MOC_LITERAL(43, 5),  // "event"
+        QT_MOC_LITERAL(49, 10),  // "mousePress"
+        QT_MOC_LITERAL(60, 9),  // "mouseMove"
+        QT_MOC_LITERAL(70, 12),  // "mouseRelease"
+        QT_MOC_LITERAL(83, 10),  // "mouseWheel"
+        QT_MOC_LITERAL(94, 12),  // "QWheelEvent*"
+        QT_MOC_LITERAL(107, 14),  // "plottableClick"
+        QT_MOC_LITERAL(122, 21),  // "QCPAbstractPlottable*"
+        QT_MOC_LITERAL(144, 9),  // "plottable"
+        QT_MOC_LITERAL(154, 9),  // "dataIndex"
+        QT_MOC_LITERAL(164, 20),  // "plottableDoubleClick"
+        QT_MOC_LITERAL(185, 9),  // "itemClick"
+        QT_MOC_LITERAL(195, 16),  // "QCPAbstractItem*"
+        QT_MOC_LITERAL(212, 4),  // "item"
+        QT_MOC_LITERAL(217, 15),  // "itemDoubleClick"
+        QT_MOC_LITERAL(233, 9),  // "axisClick"
+        QT_MOC_LITERAL(243, 8),  // "QCPAxis*"
+        QT_MOC_LITERAL(252, 4),  // "axis"
+        QT_MOC_LITERAL(257, 23),  // "QCPAxis::SelectablePart"
+        QT_MOC_LITERAL(281, 4),  // "part"
+        QT_MOC_LITERAL(286, 15),  // "axisDoubleClick"
+        QT_MOC_LITERAL(302, 11),  // "legendClick"
+        QT_MOC_LITERAL(314, 10),  // "QCPLegend*"
+        QT_MOC_LITERAL(325, 6),  // "legend"
+        QT_MOC_LITERAL(332, 22),  // "QCPAbstractLegendItem*"
+        QT_MOC_LITERAL(355, 17),  // "legendDoubleClick"
+        QT_MOC_LITERAL(373, 22),  // "selectionChangedByUser"
+        QT_MOC_LITERAL(396, 12),  // "beforeReplot"
+        QT_MOC_LITERAL(409, 11),  // "afterLayout"
+        QT_MOC_LITERAL(421, 11),  // "afterReplot"
+        QT_MOC_LITERAL(433, 11),  // "rescaleAxes"
+        QT_MOC_LITERAL(445, 21),  // "onlyVisiblePlottables"
+        QT_MOC_LITERAL(467, 11),  // "deselectAll"
+        QT_MOC_LITERAL(479, 6),  // "replot"
+        QT_MOC_LITERAL(486, 28),  // "QCustomPlot::RefreshPriority"
+        QT_MOC_LITERAL(515, 15),  // "refreshPriority"
+        QT_MOC_LITERAL(531, 20),  // "processRectSelection"
+        QT_MOC_LITERAL(552, 4),  // "rect"
+        QT_MOC_LITERAL(557, 15),  // "processRectZoom"
+        QT_MOC_LITERAL(573, 21),  // "processPointSelection"
+        QT_MOC_LITERAL(595, 8),  // "viewport"
+        QT_MOC_LITERAL(604, 10),  // "background"
+        QT_MOC_LITERAL(615, 16),  // "backgroundScaled"
+        QT_MOC_LITERAL(632, 20),  // "backgroundScaledMode"
+        QT_MOC_LITERAL(653, 19),  // "Qt::AspectRatioMode"
+        QT_MOC_LITERAL(673, 10),  // "plotLayout"
+        QT_MOC_LITERAL(684, 14),  // "QCPLayoutGrid*"
+        QT_MOC_LITERAL(699, 24),  // "autoAddPlottableToLegend"
+        QT_MOC_LITERAL(724, 18),  // "selectionTolerance"
+        QT_MOC_LITERAL(743, 20),  // "noAntialiasingOnDrag"
+        QT_MOC_LITERAL(764, 19),  // "multiSelectModifier"
+        QT_MOC_LITERAL(784, 20),  // "Qt::KeyboardModifier"
+        QT_MOC_LITERAL(805, 6),  // "openGl"
+        QT_MOC_LITERAL(812, 15),  // "LayerInsertMode"
+        QT_MOC_LITERAL(828, 8),  // "limBelow"
+        QT_MOC_LITERAL(837, 8),  // "limAbove"
+        QT_MOC_LITERAL(846, 15),  // "RefreshPriority"
+        QT_MOC_LITERAL(862, 18),  // "rpImmediateRefresh"
+        QT_MOC_LITERAL(881, 15),  // "rpQueuedRefresh"
+        QT_MOC_LITERAL(897, 13),  // "rpRefreshHint"
+        QT_MOC_LITERAL(911, 14)   // "rpQueuedReplot"
+    },
+    "QCustomPlot",
+    "mouseDoubleClick",
+    "",
+    "QMouseEvent*",
+    "event",
+    "mousePress",
+    "mouseMove",
+    "mouseRelease",
+    "mouseWheel",
+    "QWheelEvent*",
+    "plottableClick",
+    "QCPAbstractPlottable*",
+    "plottable",
+    "dataIndex",
+    "plottableDoubleClick",
+    "itemClick",
+    "QCPAbstractItem*",
+    "item",
+    "itemDoubleClick",
+    "axisClick",
+    "QCPAxis*",
+    "axis",
+    "QCPAxis::SelectablePart",
+    "part",
+    "axisDoubleClick",
+    "legendClick",
+    "QCPLegend*",
+    "legend",
+    "QCPAbstractLegendItem*",
+    "legendDoubleClick",
+    "selectionChangedByUser",
+    "beforeReplot",
+    "afterLayout",
+    "afterReplot",
+    "rescaleAxes",
+    "onlyVisiblePlottables",
+    "deselectAll",
+    "replot",
+    "QCustomPlot::RefreshPriority",
+    "refreshPriority",
+    "processRectSelection",
+    "rect",
+    "processRectZoom",
+    "processPointSelection",
+    "viewport",
+    "background",
+    "backgroundScaled",
+    "backgroundScaledMode",
+    "Qt::AspectRatioMode",
+    "plotLayout",
+    "QCPLayoutGrid*",
+    "autoAddPlottableToLegend",
+    "selectionTolerance",
+    "noAntialiasingOnDrag",
+    "multiSelectModifier",
+    "Qt::KeyboardModifier",
+    "openGl",
+    "LayerInsertMode",
+    "limBelow",
+    "limAbove",
+    "RefreshPriority",
+    "rpImmediateRefresh",
+    "rpQueuedRefresh",
+    "rpRefreshHint",
+    "rpQueuedReplot"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCustomPlotENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
       25,   14, // methods
@@ -3113,33 +4341,33 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSQCustomPlotENDCLASS[] = {
       17,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,  164,    2, 0x06,   13 /* Public */,
-       5,    1,  167,    2, 0x06,   15 /* Public */,
-       6,    1,  170,    2, 0x06,   17 /* Public */,
-       7,    1,  173,    2, 0x06,   19 /* Public */,
-       8,    1,  176,    2, 0x06,   21 /* Public */,
-      10,    3,  179,    2, 0x06,   23 /* Public */,
-      14,    3,  186,    2, 0x06,   27 /* Public */,
-      15,    2,  193,    2, 0x06,   31 /* Public */,
-      18,    2,  198,    2, 0x06,   34 /* Public */,
-      19,    3,  203,    2, 0x06,   37 /* Public */,
-      24,    3,  210,    2, 0x06,   41 /* Public */,
-      25,    3,  217,    2, 0x06,   45 /* Public */,
-      29,    3,  224,    2, 0x06,   49 /* Public */,
-      30,    0,  231,    2, 0x06,   53 /* Public */,
-      31,    0,  232,    2, 0x06,   54 /* Public */,
-      32,    0,  233,    2, 0x06,   55 /* Public */,
-      33,    0,  234,    2, 0x06,   56 /* Public */,
+       1,    1,  164,    2, 0x06,   11 /* Public */,
+       5,    1,  167,    2, 0x06,   13 /* Public */,
+       6,    1,  170,    2, 0x06,   15 /* Public */,
+       7,    1,  173,    2, 0x06,   17 /* Public */,
+       8,    1,  176,    2, 0x06,   19 /* Public */,
+      10,    3,  179,    2, 0x06,   21 /* Public */,
+      14,    3,  186,    2, 0x06,   25 /* Public */,
+      15,    2,  193,    2, 0x06,   29 /* Public */,
+      18,    2,  198,    2, 0x06,   32 /* Public */,
+      19,    3,  203,    2, 0x06,   35 /* Public */,
+      24,    3,  210,    2, 0x06,   39 /* Public */,
+      25,    3,  217,    2, 0x06,   43 /* Public */,
+      29,    3,  224,    2, 0x06,   47 /* Public */,
+      30,    0,  231,    2, 0x06,   51 /* Public */,
+      31,    0,  232,    2, 0x06,   52 /* Public */,
+      32,    0,  233,    2, 0x06,   53 /* Public */,
+      33,    0,  234,    2, 0x06,   54 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      34,    1,  235,    2, 0x0a,   57 /* Public */,
-      34,    0,  238,    2, 0x2a,   59 /* Public | MethodCloned */,
-      36,    0,  239,    2, 0x0a,   60 /* Public */,
-      37,    1,  240,    2, 0x0a,   61 /* Public */,
-      37,    0,  243,    2, 0x2a,   63 /* Public | MethodCloned */,
-      40,    2,  244,    2, 0x09,   64 /* Protected */,
-      42,    2,  249,    2, 0x09,   67 /* Protected */,
-      43,    1,  254,    2, 0x09,   70 /* Protected */,
+      34,    1,  235,    2, 0x0a,   55 /* Public */,
+      34,    0,  238,    2, 0x2a,   57 /* Public | MethodCloned */,
+      36,    0,  239,    2, 0x0a,   58 /* Public */,
+      37,    1,  240,    2, 0x0a,   59 /* Public */,
+      37,    0,  243,    2, 0x2a,   61 /* Public | MethodCloned */,
+      40,    2,  244,    2, 0x09,   62 /* Protected */,
+      42,    2,  249,    2, 0x09,   65 /* Protected */,
+      43,    1,  254,    2, 0x09,   68 /* Protected */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
@@ -3224,10 +4452,6 @@ Q_CONSTINIT const QMetaObject QCustomPlot::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<Qt::KeyboardModifier, std::true_type>,
         // property 'openGl'
         QtPrivate::TypeAndForceComplete<bool, std::true_type>,
-        // enum 'LayerInsertMode'
-        QtPrivate::TypeAndForceComplete<QCustomPlot::LayerInsertMode, std::true_type>,
-        // enum 'RefreshPriority'
-        QtPrivate::TypeAndForceComplete<QCustomPlot::RefreshPriority, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCustomPlot, std::true_type>,
         // method 'mouseDoubleClick'
@@ -3553,7 +4777,7 @@ void QCustomPlot::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 4:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPLayoutGrid* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCustomPlot *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -3744,7 +4968,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPColorGradientENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPColorGradientENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPColorGradientENDCLASS = QtMocHelpers::stringData(
     "QCPColorGradient",
     "ColorInterpolation",
     "ciRGB",
@@ -3769,15 +4993,93 @@ constexpr auto qt_meta_stringdata_CLASSQCPColorGradientENDCLASS = QtMocHelpers::
     "gpJet",
     "gpHues"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPColorGradientENDCLASS_t {
+    uint offsetsAndSizes[46];
+    char stringdata0[17];
+    char stringdata1[19];
+    char stringdata2[6];
+    char stringdata3[6];
+    char stringdata4[12];
+    char stringdata5[7];
+    char stringdata6[14];
+    char stringdata7[15];
+    char stringdata8[14];
+    char stringdata9[11];
+    char stringdata10[15];
+    char stringdata11[12];
+    char stringdata12[6];
+    char stringdata13[7];
+    char stringdata14[8];
+    char stringdata15[8];
+    char stringdata16[12];
+    char stringdata17[6];
+    char stringdata18[10];
+    char stringdata19[8];
+    char stringdata20[11];
+    char stringdata21[6];
+    char stringdata22[7];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPColorGradientENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPColorGradientENDCLASS_t qt_meta_stringdata_CLASSQCPColorGradientENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 16),  // "QCPColorGradient"
+        QT_MOC_LITERAL(17, 18),  // "ColorInterpolation"
+        QT_MOC_LITERAL(36, 5),  // "ciRGB"
+        QT_MOC_LITERAL(42, 5),  // "ciHSV"
+        QT_MOC_LITERAL(48, 11),  // "NanHandling"
+        QT_MOC_LITERAL(60, 6),  // "nhNone"
+        QT_MOC_LITERAL(67, 13),  // "nhLowestColor"
+        QT_MOC_LITERAL(81, 14),  // "nhHighestColor"
+        QT_MOC_LITERAL(96, 13),  // "nhTransparent"
+        QT_MOC_LITERAL(110, 10),  // "nhNanColor"
+        QT_MOC_LITERAL(121, 14),  // "GradientPreset"
+        QT_MOC_LITERAL(136, 11),  // "gpGrayscale"
+        QT_MOC_LITERAL(148, 5),  // "gpHot"
+        QT_MOC_LITERAL(154, 6),  // "gpCold"
+        QT_MOC_LITERAL(161, 7),  // "gpNight"
+        QT_MOC_LITERAL(169, 7),  // "gpCandy"
+        QT_MOC_LITERAL(177, 11),  // "gpGeography"
+        QT_MOC_LITERAL(189, 5),  // "gpIon"
+        QT_MOC_LITERAL(195, 9),  // "gpThermal"
+        QT_MOC_LITERAL(205, 7),  // "gpPolar"
+        QT_MOC_LITERAL(213, 10),  // "gpSpectrum"
+        QT_MOC_LITERAL(224, 5),  // "gpJet"
+        QT_MOC_LITERAL(230, 6)   // "gpHues"
+    },
+    "QCPColorGradient",
+    "ColorInterpolation",
+    "ciRGB",
+    "ciHSV",
+    "NanHandling",
+    "nhNone",
+    "nhLowestColor",
+    "nhHighestColor",
+    "nhTransparent",
+    "nhNanColor",
+    "GradientPreset",
+    "gpGrayscale",
+    "gpHot",
+    "gpCold",
+    "gpNight",
+    "gpCandy",
+    "gpGeography",
+    "gpIon",
+    "gpThermal",
+    "gpPolar",
+    "gpSpectrum",
+    "gpJet",
+    "gpHues"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPColorGradientENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -3823,12 +5125,6 @@ Q_CONSTINIT const QMetaObject QCPColorGradient::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPColorGradientENDCLASS_t,
-        // enum 'ColorInterpolation'
-        QtPrivate::TypeAndForceComplete<QCPColorGradient::ColorInterpolation, std::true_type>,
-        // enum 'NanHandling'
-        QtPrivate::TypeAndForceComplete<QCPColorGradient::NanHandling, std::true_type>,
-        // enum 'GradientPreset'
-        QtPrivate::TypeAndForceComplete<QCPColorGradient::GradientPreset, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPColorGradient, std::true_type>
     >,
@@ -3839,7 +5135,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPSelectionDecoratorBracketENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPSelectionDecoratorBracketENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPSelectionDecoratorBracketENDCLASS = QtMocHelpers::stringData(
     "QCPSelectionDecoratorBracket",
     "BracketStyle",
     "bsSquareBracket",
@@ -3848,15 +5144,45 @@ constexpr auto qt_meta_stringdata_CLASSQCPSelectionDecoratorBracketENDCLASS = Qt
     "bsPlus",
     "bsUserStyle"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPSelectionDecoratorBracketENDCLASS_t {
+    uint offsetsAndSizes[14];
+    char stringdata0[29];
+    char stringdata1[13];
+    char stringdata2[16];
+    char stringdata3[14];
+    char stringdata4[10];
+    char stringdata5[7];
+    char stringdata6[12];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPSelectionDecoratorBracketENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPSelectionDecoratorBracketENDCLASS_t qt_meta_stringdata_CLASSQCPSelectionDecoratorBracketENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 28),  // "QCPSelectionDecoratorBracket"
+        QT_MOC_LITERAL(29, 12),  // "BracketStyle"
+        QT_MOC_LITERAL(42, 15),  // "bsSquareBracket"
+        QT_MOC_LITERAL(58, 13),  // "bsHalfEllipse"
+        QT_MOC_LITERAL(72, 9),  // "bsEllipse"
+        QT_MOC_LITERAL(82, 6),  // "bsPlus"
+        QT_MOC_LITERAL(89, 11)   // "bsUserStyle"
+    },
+    "QCPSelectionDecoratorBracket",
+    "BracketStyle",
+    "bsSquareBracket",
+    "bsHalfEllipse",
+    "bsEllipse",
+    "bsPlus",
+    "bsUserStyle"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPSelectionDecoratorBracketENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -3886,8 +5212,6 @@ Q_CONSTINIT const QMetaObject QCPSelectionDecoratorBracket::staticMetaObject = {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPSelectionDecoratorBracketENDCLASS_t,
-        // enum 'BracketStyle'
-        QtPrivate::TypeAndForceComplete<QCPSelectionDecoratorBracket::BracketStyle, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPSelectionDecoratorBracket, std::true_type>
     >,
@@ -3898,7 +5222,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPAxisRectENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPAxisRectENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPAxisRectENDCLASS = QtMocHelpers::stringData(
     "QCPAxisRect",
     "background",
     "backgroundScaled",
@@ -3908,15 +5232,48 @@ constexpr auto qt_meta_stringdata_CLASSQCPAxisRectENDCLASS = QtMocHelpers::strin
     "Qt::Orientations",
     "rangeZoom"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPAxisRectENDCLASS_t {
+    uint offsetsAndSizes[16];
+    char stringdata0[12];
+    char stringdata1[11];
+    char stringdata2[17];
+    char stringdata3[21];
+    char stringdata4[20];
+    char stringdata5[10];
+    char stringdata6[17];
+    char stringdata7[10];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPAxisRectENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPAxisRectENDCLASS_t qt_meta_stringdata_CLASSQCPAxisRectENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 11),  // "QCPAxisRect"
+        QT_MOC_LITERAL(12, 10),  // "background"
+        QT_MOC_LITERAL(23, 16),  // "backgroundScaled"
+        QT_MOC_LITERAL(40, 20),  // "backgroundScaledMode"
+        QT_MOC_LITERAL(61, 19),  // "Qt::AspectRatioMode"
+        QT_MOC_LITERAL(81, 9),  // "rangeDrag"
+        QT_MOC_LITERAL(91, 16),  // "Qt::Orientations"
+        QT_MOC_LITERAL(108, 9)   // "rangeZoom"
+    },
+    "QCPAxisRect",
+    "background",
+    "backgroundScaled",
+    "backgroundScaledMode",
+    "Qt::AspectRatioMode",
+    "rangeDrag",
+    "Qt::Orientations",
+    "rangeZoom"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPAxisRectENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -4024,7 +5381,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPAbstractLegendItemENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPAbstractLegendItemENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPAbstractLegendItemENDCLASS = QtMocHelpers::stringData(
     "QCPAbstractLegendItem",
     "selectionChanged",
     "",
@@ -4040,15 +5397,66 @@ constexpr auto qt_meta_stringdata_CLASSQCPAbstractLegendItemENDCLASS = QtMocHelp
     "selectedFont",
     "selectedTextColor"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPAbstractLegendItemENDCLASS_t {
+    uint offsetsAndSizes[28];
+    char stringdata0[22];
+    char stringdata1[17];
+    char stringdata2[1];
+    char stringdata3[9];
+    char stringdata4[18];
+    char stringdata5[11];
+    char stringdata6[14];
+    char stringdata7[12];
+    char stringdata8[13];
+    char stringdata9[11];
+    char stringdata10[5];
+    char stringdata11[10];
+    char stringdata12[13];
+    char stringdata13[18];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPAbstractLegendItemENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPAbstractLegendItemENDCLASS_t qt_meta_stringdata_CLASSQCPAbstractLegendItemENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 21),  // "QCPAbstractLegendItem"
+        QT_MOC_LITERAL(22, 16),  // "selectionChanged"
+        QT_MOC_LITERAL(39, 0),  // ""
+        QT_MOC_LITERAL(40, 8),  // "selected"
+        QT_MOC_LITERAL(49, 17),  // "selectableChanged"
+        QT_MOC_LITERAL(67, 10),  // "selectable"
+        QT_MOC_LITERAL(78, 13),  // "setSelectable"
+        QT_MOC_LITERAL(92, 11),  // "setSelected"
+        QT_MOC_LITERAL(104, 12),  // "parentLegend"
+        QT_MOC_LITERAL(117, 10),  // "QCPLegend*"
+        QT_MOC_LITERAL(128, 4),  // "font"
+        QT_MOC_LITERAL(133, 9),  // "textColor"
+        QT_MOC_LITERAL(143, 12),  // "selectedFont"
+        QT_MOC_LITERAL(156, 17)   // "selectedTextColor"
+    },
+    "QCPAbstractLegendItem",
+    "selectionChanged",
+    "",
+    "selected",
+    "selectableChanged",
+    "selectable",
+    "setSelectable",
+    "setSelected",
+    "parentLegend",
+    "QCPLegend*",
+    "font",
+    "textColor",
+    "selectedFont",
+    "selectedTextColor"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPAbstractLegendItemENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        4,   14, // methods
@@ -4159,7 +5567,7 @@ void QCPAbstractLegendItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c
         case 0:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPLegend* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPAbstractLegendItem *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -4243,18 +5651,30 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPPlottableLegendItemENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPPlottableLegendItemENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPPlottableLegendItemENDCLASS = QtMocHelpers::stringData(
     "QCPPlottableLegendItem"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPPlottableLegendItemENDCLASS_t {
+    uint offsetsAndSizes[2];
+    char stringdata0[23];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPPlottableLegendItemENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPPlottableLegendItemENDCLASS_t qt_meta_stringdata_CLASSQCPPlottableLegendItemENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 22)   // "QCPPlottableLegendItem"
+    },
+    "QCPPlottableLegendItem"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPPlottableLegendItemENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -4310,7 +5730,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPLegendENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPLegendENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPLegendENDCLASS = QtMocHelpers::stringData(
     "QCPLegend",
     "selectionChanged",
     "",
@@ -4339,15 +5759,105 @@ constexpr auto qt_meta_stringdata_CLASSQCPLegendENDCLASS = QtMocHelpers::stringD
     "spLegendBox",
     "spItems"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPLegendENDCLASS_t {
+    uint offsetsAndSizes[54];
+    char stringdata0[10];
+    char stringdata1[17];
+    char stringdata2[1];
+    char stringdata3[27];
+    char stringdata4[6];
+    char stringdata5[18];
+    char stringdata6[19];
+    char stringdata7[16];
+    char stringdata8[16];
+    char stringdata9[17];
+    char stringdata10[14];
+    char stringdata11[10];
+    char stringdata12[6];
+    char stringdata13[5];
+    char stringdata14[10];
+    char stringdata15[9];
+    char stringdata16[16];
+    char stringdata17[14];
+    char stringdata18[18];
+    char stringdata19[22];
+    char stringdata20[14];
+    char stringdata21[13];
+    char stringdata22[18];
+    char stringdata23[15];
+    char stringdata24[7];
+    char stringdata25[12];
+    char stringdata26[8];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPLegendENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPLegendENDCLASS_t qt_meta_stringdata_CLASSQCPLegendENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 9),  // "QCPLegend"
+        QT_MOC_LITERAL(10, 16),  // "selectionChanged"
+        QT_MOC_LITERAL(27, 0),  // ""
+        QT_MOC_LITERAL(28, 26),  // "QCPLegend::SelectableParts"
+        QT_MOC_LITERAL(55, 5),  // "parts"
+        QT_MOC_LITERAL(61, 17),  // "selectableChanged"
+        QT_MOC_LITERAL(79, 18),  // "setSelectableParts"
+        QT_MOC_LITERAL(98, 15),  // "SelectableParts"
+        QT_MOC_LITERAL(114, 15),  // "selectableParts"
+        QT_MOC_LITERAL(130, 16),  // "setSelectedParts"
+        QT_MOC_LITERAL(147, 13),  // "selectedParts"
+        QT_MOC_LITERAL(161, 9),  // "borderPen"
+        QT_MOC_LITERAL(171, 5),  // "brush"
+        QT_MOC_LITERAL(177, 4),  // "font"
+        QT_MOC_LITERAL(182, 9),  // "textColor"
+        QT_MOC_LITERAL(192, 8),  // "iconSize"
+        QT_MOC_LITERAL(201, 15),  // "iconTextPadding"
+        QT_MOC_LITERAL(217, 13),  // "iconBorderPen"
+        QT_MOC_LITERAL(231, 17),  // "selectedBorderPen"
+        QT_MOC_LITERAL(249, 21),  // "selectedIconBorderPen"
+        QT_MOC_LITERAL(271, 13),  // "selectedBrush"
+        QT_MOC_LITERAL(285, 12),  // "selectedFont"
+        QT_MOC_LITERAL(298, 17),  // "selectedTextColor"
+        QT_MOC_LITERAL(316, 14),  // "SelectablePart"
+        QT_MOC_LITERAL(331, 6),  // "spNone"
+        QT_MOC_LITERAL(338, 11),  // "spLegendBox"
+        QT_MOC_LITERAL(350, 7)   // "spItems"
+    },
+    "QCPLegend",
+    "selectionChanged",
+    "",
+    "QCPLegend::SelectableParts",
+    "parts",
+    "selectableChanged",
+    "setSelectableParts",
+    "SelectableParts",
+    "selectableParts",
+    "setSelectedParts",
+    "selectedParts",
+    "borderPen",
+    "brush",
+    "font",
+    "textColor",
+    "iconSize",
+    "iconTextPadding",
+    "iconBorderPen",
+    "selectedBorderPen",
+    "selectedIconBorderPen",
+    "selectedBrush",
+    "selectedFont",
+    "selectedTextColor",
+    "SelectablePart",
+    "spNone",
+    "spLegendBox",
+    "spItems"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPLegendENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        4,   14, // methods
@@ -4358,12 +5868,12 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSQCPLegendENDCLASS[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   38,    2, 0x06,   17 /* Public */,
-       5,    1,   41,    2, 0x06,   19 /* Public */,
+       1,    1,   38,    2, 0x06,   15 /* Public */,
+       5,    1,   41,    2, 0x06,   17 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       6,    1,   44,    2, 0x0a,   21 /* Public */,
-       9,    1,   47,    2, 0x0a,   23 /* Public */,
+       6,    1,   44,    2, 0x0a,   19 /* Public */,
+       9,    1,   47,    2, 0x0a,   21 /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
@@ -4439,10 +5949,6 @@ Q_CONSTINIT const QMetaObject QCPLegend::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<QFont, std::true_type>,
         // property 'selectedTextColor'
         QtPrivate::TypeAndForceComplete<QColor, std::true_type>,
-        // enum 'SelectablePart'
-        QtPrivate::TypeAndForceComplete<QCPLegend::SelectablePart, std::true_type>,
-        // enum 'SelectableParts'
-        QtPrivate::TypeAndForceComplete<QCPLegend::SelectableParts, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPLegend, std::true_type>,
         // method 'selectionChanged'
@@ -4489,7 +5995,7 @@ void QCPLegend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
                 return;
             }
         }
-    } else if (_c == QMetaObject::ReadProperty) {
+    }else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPLegend *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -4588,7 +6094,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPTextElementENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPTextElementENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPTextElementENDCLASS = QtMocHelpers::stringData(
     "QCPTextElement",
     "selectionChanged",
     "",
@@ -4607,15 +6113,75 @@ constexpr auto qt_meta_stringdata_CLASSQCPTextElementENDCLASS = QtMocHelpers::st
     "selectedFont",
     "selectedTextColor"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPTextElementENDCLASS_t {
+    uint offsetsAndSizes[34];
+    char stringdata0[15];
+    char stringdata1[17];
+    char stringdata2[1];
+    char stringdata3[9];
+    char stringdata4[18];
+    char stringdata5[11];
+    char stringdata6[8];
+    char stringdata7[13];
+    char stringdata8[6];
+    char stringdata9[14];
+    char stringdata10[14];
+    char stringdata11[12];
+    char stringdata12[5];
+    char stringdata13[5];
+    char stringdata14[10];
+    char stringdata15[13];
+    char stringdata16[18];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPTextElementENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPTextElementENDCLASS_t qt_meta_stringdata_CLASSQCPTextElementENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 14),  // "QCPTextElement"
+        QT_MOC_LITERAL(15, 16),  // "selectionChanged"
+        QT_MOC_LITERAL(32, 0),  // ""
+        QT_MOC_LITERAL(33, 8),  // "selected"
+        QT_MOC_LITERAL(42, 17),  // "selectableChanged"
+        QT_MOC_LITERAL(60, 10),  // "selectable"
+        QT_MOC_LITERAL(71, 7),  // "clicked"
+        QT_MOC_LITERAL(79, 12),  // "QMouseEvent*"
+        QT_MOC_LITERAL(92, 5),  // "event"
+        QT_MOC_LITERAL(98, 13),  // "doubleClicked"
+        QT_MOC_LITERAL(112, 13),  // "setSelectable"
+        QT_MOC_LITERAL(126, 11),  // "setSelected"
+        QT_MOC_LITERAL(138, 4),  // "text"
+        QT_MOC_LITERAL(143, 4),  // "font"
+        QT_MOC_LITERAL(148, 9),  // "textColor"
+        QT_MOC_LITERAL(158, 12),  // "selectedFont"
+        QT_MOC_LITERAL(171, 17)   // "selectedTextColor"
+    },
+    "QCPTextElement",
+    "selectionChanged",
+    "",
+    "selected",
+    "selectableChanged",
+    "selectable",
+    "clicked",
+    "QMouseEvent*",
+    "event",
+    "doubleClicked",
+    "setSelectable",
+    "setSelected",
+    "text",
+    "font",
+    "textColor",
+    "selectedFont",
+    "selectedTextColor"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPTextElementENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        6,   14, // methods
@@ -4746,7 +6312,7 @@ void QCPTextElement::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
                 return;
             }
         }
-    } else if (_c == QMetaObject::ReadProperty) {
+    }else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPTextElement *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -4845,7 +6411,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPColorScaleAxisRectPrivateENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPColorScaleAxisRectPrivateENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPColorScaleAxisRectPrivateENDCLASS = QtMocHelpers::stringData(
     "QCPColorScaleAxisRectPrivate",
     "axisSelectionChanged",
     "",
@@ -4854,15 +6420,45 @@ constexpr auto qt_meta_stringdata_CLASSQCPColorScaleAxisRectPrivateENDCLASS = Qt
     "axisSelectableChanged",
     "selectableParts"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPColorScaleAxisRectPrivateENDCLASS_t {
+    uint offsetsAndSizes[14];
+    char stringdata0[29];
+    char stringdata1[21];
+    char stringdata2[1];
+    char stringdata3[25];
+    char stringdata4[14];
+    char stringdata5[22];
+    char stringdata6[16];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPColorScaleAxisRectPrivateENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPColorScaleAxisRectPrivateENDCLASS_t qt_meta_stringdata_CLASSQCPColorScaleAxisRectPrivateENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 28),  // "QCPColorScaleAxisRectPrivate"
+        QT_MOC_LITERAL(29, 20),  // "axisSelectionChanged"
+        QT_MOC_LITERAL(50, 0),  // ""
+        QT_MOC_LITERAL(51, 24),  // "QCPAxis::SelectableParts"
+        QT_MOC_LITERAL(76, 13),  // "selectedParts"
+        QT_MOC_LITERAL(90, 21),  // "axisSelectableChanged"
+        QT_MOC_LITERAL(112, 15)   // "selectableParts"
+    },
+    "QCPColorScaleAxisRectPrivate",
+    "axisSelectionChanged",
+    "",
+    "QCPAxis::SelectableParts",
+    "selectedParts",
+    "axisSelectableChanged",
+    "selectableParts"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPColorScaleAxisRectPrivateENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods
@@ -4948,7 +6544,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPColorScaleENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPColorScaleENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPColorScaleENDCLASS = QtMocHelpers::stringData(
     "QCPColorScale",
     "dataRangeChanged",
     "",
@@ -4973,15 +6569,93 @@ constexpr auto qt_meta_stringdata_CLASSQCPColorScaleENDCLASS = QtMocHelpers::str
     "rangeDrag",
     "rangeZoom"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPColorScaleENDCLASS_t {
+    uint offsetsAndSizes[46];
+    char stringdata0[14];
+    char stringdata1[17];
+    char stringdata2[1];
+    char stringdata3[9];
+    char stringdata4[9];
+    char stringdata5[21];
+    char stringdata6[19];
+    char stringdata7[10];
+    char stringdata8[16];
+    char stringdata9[17];
+    char stringdata10[12];
+    char stringdata11[13];
+    char stringdata12[10];
+    char stringdata13[17];
+    char stringdata14[12];
+    char stringdata15[9];
+    char stringdata16[5];
+    char stringdata17[18];
+    char stringdata18[14];
+    char stringdata19[6];
+    char stringdata20[9];
+    char stringdata21[10];
+    char stringdata22[10];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPColorScaleENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPColorScaleENDCLASS_t qt_meta_stringdata_CLASSQCPColorScaleENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 13),  // "QCPColorScale"
+        QT_MOC_LITERAL(14, 16),  // "dataRangeChanged"
+        QT_MOC_LITERAL(31, 0),  // ""
+        QT_MOC_LITERAL(32, 8),  // "QCPRange"
+        QT_MOC_LITERAL(41, 8),  // "newRange"
+        QT_MOC_LITERAL(50, 20),  // "dataScaleTypeChanged"
+        QT_MOC_LITERAL(71, 18),  // "QCPAxis::ScaleType"
+        QT_MOC_LITERAL(90, 9),  // "scaleType"
+        QT_MOC_LITERAL(100, 15),  // "gradientChanged"
+        QT_MOC_LITERAL(116, 16),  // "QCPColorGradient"
+        QT_MOC_LITERAL(133, 11),  // "newGradient"
+        QT_MOC_LITERAL(145, 12),  // "setDataRange"
+        QT_MOC_LITERAL(158, 9),  // "dataRange"
+        QT_MOC_LITERAL(168, 16),  // "setDataScaleType"
+        QT_MOC_LITERAL(185, 11),  // "setGradient"
+        QT_MOC_LITERAL(197, 8),  // "gradient"
+        QT_MOC_LITERAL(206, 4),  // "type"
+        QT_MOC_LITERAL(211, 17),  // "QCPAxis::AxisType"
+        QT_MOC_LITERAL(229, 13),  // "dataScaleType"
+        QT_MOC_LITERAL(243, 5),  // "label"
+        QT_MOC_LITERAL(249, 8),  // "barWidth"
+        QT_MOC_LITERAL(258, 9),  // "rangeDrag"
+        QT_MOC_LITERAL(268, 9)   // "rangeZoom"
+    },
+    "QCPColorScale",
+    "dataRangeChanged",
+    "",
+    "QCPRange",
+    "newRange",
+    "dataScaleTypeChanged",
+    "QCPAxis::ScaleType",
+    "scaleType",
+    "gradientChanged",
+    "QCPColorGradient",
+    "newGradient",
+    "setDataRange",
+    "dataRange",
+    "setDataScaleType",
+    "setGradient",
+    "gradient",
+    "type",
+    "QCPAxis::AxisType",
+    "dataScaleType",
+    "label",
+    "barWidth",
+    "rangeDrag",
+    "rangeZoom"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPColorScaleENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        6,   14, // methods
@@ -5139,7 +6813,7 @@ void QCPColorScale::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 2:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPAxis::ScaleType >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPColorScale *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -5233,7 +6907,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPGraphENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPGraphENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPGraphENDCLASS = QtMocHelpers::stringData(
     "QCPGraph",
     "lineStyle",
     "LineStyle",
@@ -5250,15 +6924,69 @@ constexpr auto qt_meta_stringdata_CLASSQCPGraphENDCLASS = QtMocHelpers::stringDa
     "lsStepCenter",
     "lsImpulse"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPGraphENDCLASS_t {
+    uint offsetsAndSizes[30];
+    char stringdata0[9];
+    char stringdata1[10];
+    char stringdata2[10];
+    char stringdata3[13];
+    char stringdata4[16];
+    char stringdata5[12];
+    char stringdata6[17];
+    char stringdata7[10];
+    char stringdata8[17];
+    char stringdata9[7];
+    char stringdata10[7];
+    char stringdata11[11];
+    char stringdata12[12];
+    char stringdata13[13];
+    char stringdata14[10];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPGraphENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPGraphENDCLASS_t qt_meta_stringdata_CLASSQCPGraphENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 8),  // "QCPGraph"
+        QT_MOC_LITERAL(9, 9),  // "lineStyle"
+        QT_MOC_LITERAL(19, 9),  // "LineStyle"
+        QT_MOC_LITERAL(29, 12),  // "scatterStyle"
+        QT_MOC_LITERAL(42, 15),  // "QCPScatterStyle"
+        QT_MOC_LITERAL(58, 11),  // "scatterSkip"
+        QT_MOC_LITERAL(70, 16),  // "channelFillGraph"
+        QT_MOC_LITERAL(87, 9),  // "QCPGraph*"
+        QT_MOC_LITERAL(97, 16),  // "adaptiveSampling"
+        QT_MOC_LITERAL(114, 6),  // "lsNone"
+        QT_MOC_LITERAL(121, 6),  // "lsLine"
+        QT_MOC_LITERAL(128, 10),  // "lsStepLeft"
+        QT_MOC_LITERAL(139, 11),  // "lsStepRight"
+        QT_MOC_LITERAL(151, 12),  // "lsStepCenter"
+        QT_MOC_LITERAL(164, 9)   // "lsImpulse"
+    },
+    "QCPGraph",
+    "lineStyle",
+    "LineStyle",
+    "scatterStyle",
+    "QCPScatterStyle",
+    "scatterSkip",
+    "channelFillGraph",
+    "QCPGraph*",
+    "adaptiveSampling",
+    "lsNone",
+    "lsLine",
+    "lsStepLeft",
+    "lsStepRight",
+    "lsStepCenter",
+    "lsImpulse"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPGraphENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -5306,8 +7034,6 @@ Q_CONSTINIT const QMetaObject QCPGraph::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<QCPGraph*, std::true_type>,
         // property 'adaptiveSampling'
         QtPrivate::TypeAndForceComplete<bool, std::true_type>,
-        // enum 'LineStyle'
-        QtPrivate::TypeAndForceComplete<QCPGraph::LineStyle, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPGraph, std::true_type>
     >,
@@ -5322,7 +7048,7 @@ void QCPGraph::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         case 3:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPGraph* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPGraph *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -5382,7 +7108,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPCurveENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPCurveENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPCurveENDCLASS = QtMocHelpers::stringData(
     "QCPCurve",
     "scatterStyle",
     "QCPScatterStyle",
@@ -5392,15 +7118,48 @@ constexpr auto qt_meta_stringdata_CLASSQCPCurveENDCLASS = QtMocHelpers::stringDa
     "lsNone",
     "lsLine"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPCurveENDCLASS_t {
+    uint offsetsAndSizes[16];
+    char stringdata0[9];
+    char stringdata1[13];
+    char stringdata2[16];
+    char stringdata3[12];
+    char stringdata4[10];
+    char stringdata5[10];
+    char stringdata6[7];
+    char stringdata7[7];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPCurveENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPCurveENDCLASS_t qt_meta_stringdata_CLASSQCPCurveENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 8),  // "QCPCurve"
+        QT_MOC_LITERAL(9, 12),  // "scatterStyle"
+        QT_MOC_LITERAL(22, 15),  // "QCPScatterStyle"
+        QT_MOC_LITERAL(38, 11),  // "scatterSkip"
+        QT_MOC_LITERAL(50, 9),  // "lineStyle"
+        QT_MOC_LITERAL(60, 9),  // "LineStyle"
+        QT_MOC_LITERAL(70, 6),  // "lsNone"
+        QT_MOC_LITERAL(77, 6)   // "lsLine"
+    },
+    "QCPCurve",
+    "scatterStyle",
+    "QCPScatterStyle",
+    "scatterSkip",
+    "lineStyle",
+    "LineStyle",
+    "lsNone",
+    "lsLine"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPCurveENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -5438,8 +7197,6 @@ Q_CONSTINIT const QMetaObject QCPCurve::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<int, std::true_type>,
         // property 'lineStyle'
         QtPrivate::TypeAndForceComplete<LineStyle, std::true_type>,
-        // enum 'LineStyle'
-        QtPrivate::TypeAndForceComplete<QCPCurve::LineStyle, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPCurve, std::true_type>
     >,
@@ -5507,7 +7264,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPBarsGroupENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPBarsGroupENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPBarsGroupENDCLASS = QtMocHelpers::stringData(
     "QCPBarsGroup",
     "spacingType",
     "SpacingType",
@@ -5516,15 +7273,45 @@ constexpr auto qt_meta_stringdata_CLASSQCPBarsGroupENDCLASS = QtMocHelpers::stri
     "stAxisRectRatio",
     "stPlotCoords"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPBarsGroupENDCLASS_t {
+    uint offsetsAndSizes[14];
+    char stringdata0[13];
+    char stringdata1[12];
+    char stringdata2[12];
+    char stringdata3[8];
+    char stringdata4[11];
+    char stringdata5[16];
+    char stringdata6[13];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPBarsGroupENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPBarsGroupENDCLASS_t qt_meta_stringdata_CLASSQCPBarsGroupENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 12),  // "QCPBarsGroup"
+        QT_MOC_LITERAL(13, 11),  // "spacingType"
+        QT_MOC_LITERAL(25, 11),  // "SpacingType"
+        QT_MOC_LITERAL(37, 7),  // "spacing"
+        QT_MOC_LITERAL(45, 10),  // "stAbsolute"
+        QT_MOC_LITERAL(56, 15),  // "stAxisRectRatio"
+        QT_MOC_LITERAL(72, 12)   // "stPlotCoords"
+    },
+    "QCPBarsGroup",
+    "spacingType",
+    "SpacingType",
+    "spacing",
+    "stAbsolute",
+    "stAxisRectRatio",
+    "stPlotCoords"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPBarsGroupENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -5560,8 +7347,6 @@ Q_CONSTINIT const QMetaObject QCPBarsGroup::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<SpacingType, std::true_type>,
         // property 'spacing'
         QtPrivate::TypeAndForceComplete<double, std::true_type>,
-        // enum 'SpacingType'
-        QtPrivate::TypeAndForceComplete<QCPBarsGroup::SpacingType, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPBarsGroup, std::true_type>
     >,
@@ -5627,7 +7412,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPBarsENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPBarsENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPBarsENDCLASS = QtMocHelpers::stringData(
     "QCPBars",
     "width",
     "widthType",
@@ -5643,15 +7428,66 @@ constexpr auto qt_meta_stringdata_CLASSQCPBarsENDCLASS = QtMocHelpers::stringDat
     "wtAxisRectRatio",
     "wtPlotCoords"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPBarsENDCLASS_t {
+    uint offsetsAndSizes[28];
+    char stringdata0[8];
+    char stringdata1[6];
+    char stringdata2[10];
+    char stringdata3[10];
+    char stringdata4[10];
+    char stringdata5[14];
+    char stringdata6[10];
+    char stringdata7[12];
+    char stringdata8[9];
+    char stringdata9[9];
+    char stringdata10[9];
+    char stringdata11[11];
+    char stringdata12[16];
+    char stringdata13[13];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPBarsENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPBarsENDCLASS_t qt_meta_stringdata_CLASSQCPBarsENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 7),  // "QCPBars"
+        QT_MOC_LITERAL(8, 5),  // "width"
+        QT_MOC_LITERAL(14, 9),  // "widthType"
+        QT_MOC_LITERAL(24, 9),  // "WidthType"
+        QT_MOC_LITERAL(34, 9),  // "barsGroup"
+        QT_MOC_LITERAL(44, 13),  // "QCPBarsGroup*"
+        QT_MOC_LITERAL(58, 9),  // "baseValue"
+        QT_MOC_LITERAL(68, 11),  // "stackingGap"
+        QT_MOC_LITERAL(80, 8),  // "barBelow"
+        QT_MOC_LITERAL(89, 8),  // "QCPBars*"
+        QT_MOC_LITERAL(98, 8),  // "barAbove"
+        QT_MOC_LITERAL(107, 10),  // "wtAbsolute"
+        QT_MOC_LITERAL(118, 15),  // "wtAxisRectRatio"
+        QT_MOC_LITERAL(134, 12)   // "wtPlotCoords"
+    },
+    "QCPBars",
+    "width",
+    "widthType",
+    "WidthType",
+    "barsGroup",
+    "QCPBarsGroup*",
+    "baseValue",
+    "stackingGap",
+    "barBelow",
+    "QCPBars*",
+    "barAbove",
+    "wtAbsolute",
+    "wtAxisRectRatio",
+    "wtPlotCoords"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPBarsENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -5702,8 +7538,6 @@ Q_CONSTINIT const QMetaObject QCPBars::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<QCPBars*, std::true_type>,
         // property 'barAbove'
         QtPrivate::TypeAndForceComplete<QCPBars*, std::true_type>,
-        // enum 'WidthType'
-        QtPrivate::TypeAndForceComplete<QCPBars::WidthType, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPBars, std::true_type>
     >,
@@ -5721,7 +7555,7 @@ void QCPBars::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 2:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPBarsGroup* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPBars *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -5783,7 +7617,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPStatisticalBoxENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPStatisticalBoxENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPStatisticalBoxENDCLASS = QtMocHelpers::stringData(
     "QCPStatisticalBox",
     "width",
     "whiskerWidth",
@@ -5794,15 +7628,51 @@ constexpr auto qt_meta_stringdata_CLASSQCPStatisticalBoxENDCLASS = QtMocHelpers:
     "outlierStyle",
     "QCPScatterStyle"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPStatisticalBoxENDCLASS_t {
+    uint offsetsAndSizes[18];
+    char stringdata0[18];
+    char stringdata1[6];
+    char stringdata2[13];
+    char stringdata3[11];
+    char stringdata4[14];
+    char stringdata5[19];
+    char stringdata6[10];
+    char stringdata7[13];
+    char stringdata8[16];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPStatisticalBoxENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPStatisticalBoxENDCLASS_t qt_meta_stringdata_CLASSQCPStatisticalBoxENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 17),  // "QCPStatisticalBox"
+        QT_MOC_LITERAL(18, 5),  // "width"
+        QT_MOC_LITERAL(24, 12),  // "whiskerWidth"
+        QT_MOC_LITERAL(37, 10),  // "whiskerPen"
+        QT_MOC_LITERAL(48, 13),  // "whiskerBarPen"
+        QT_MOC_LITERAL(62, 18),  // "whiskerAntialiased"
+        QT_MOC_LITERAL(81, 9),  // "medianPen"
+        QT_MOC_LITERAL(91, 12),  // "outlierStyle"
+        QT_MOC_LITERAL(104, 15)   // "QCPScatterStyle"
+    },
+    "QCPStatisticalBox",
+    "width",
+    "whiskerWidth",
+    "whiskerPen",
+    "whiskerBarPen",
+    "whiskerAntialiased",
+    "medianPen",
+    "outlierStyle",
+    "QCPScatterStyle"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPStatisticalBoxENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -5920,7 +7790,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPColorMapENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPColorMapENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPColorMapENDCLASS = QtMocHelpers::stringData(
     "QCPColorMap",
     "dataRangeChanged",
     "",
@@ -5947,15 +7817,99 @@ constexpr auto qt_meta_stringdata_CLASSQCPColorMapENDCLASS = QtMocHelpers::strin
     "colorScale",
     "QCPColorScale*"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPColorMapENDCLASS_t {
+    uint offsetsAndSizes[50];
+    char stringdata0[12];
+    char stringdata1[17];
+    char stringdata2[1];
+    char stringdata3[9];
+    char stringdata4[9];
+    char stringdata5[21];
+    char stringdata6[19];
+    char stringdata7[10];
+    char stringdata8[16];
+    char stringdata9[17];
+    char stringdata10[12];
+    char stringdata11[13];
+    char stringdata12[10];
+    char stringdata13[17];
+    char stringdata14[12];
+    char stringdata15[9];
+    char stringdata16[17];
+    char stringdata17[23];
+    char stringdata18[14];
+    char stringdata19[10];
+    char stringdata20[14];
+    char stringdata21[12];
+    char stringdata22[14];
+    char stringdata23[11];
+    char stringdata24[15];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPColorMapENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPColorMapENDCLASS_t qt_meta_stringdata_CLASSQCPColorMapENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 11),  // "QCPColorMap"
+        QT_MOC_LITERAL(12, 16),  // "dataRangeChanged"
+        QT_MOC_LITERAL(29, 0),  // ""
+        QT_MOC_LITERAL(30, 8),  // "QCPRange"
+        QT_MOC_LITERAL(39, 8),  // "newRange"
+        QT_MOC_LITERAL(48, 20),  // "dataScaleTypeChanged"
+        QT_MOC_LITERAL(69, 18),  // "QCPAxis::ScaleType"
+        QT_MOC_LITERAL(88, 9),  // "scaleType"
+        QT_MOC_LITERAL(98, 15),  // "gradientChanged"
+        QT_MOC_LITERAL(114, 16),  // "QCPColorGradient"
+        QT_MOC_LITERAL(131, 11),  // "newGradient"
+        QT_MOC_LITERAL(143, 12),  // "setDataRange"
+        QT_MOC_LITERAL(156, 9),  // "dataRange"
+        QT_MOC_LITERAL(166, 16),  // "setDataScaleType"
+        QT_MOC_LITERAL(183, 11),  // "setGradient"
+        QT_MOC_LITERAL(195, 8),  // "gradient"
+        QT_MOC_LITERAL(204, 16),  // "updateLegendIcon"
+        QT_MOC_LITERAL(221, 22),  // "Qt::TransformationMode"
+        QT_MOC_LITERAL(244, 13),  // "transformMode"
+        QT_MOC_LITERAL(258, 9),  // "thumbSize"
+        QT_MOC_LITERAL(268, 13),  // "dataScaleType"
+        QT_MOC_LITERAL(282, 11),  // "interpolate"
+        QT_MOC_LITERAL(294, 13),  // "tightBoundary"
+        QT_MOC_LITERAL(308, 10),  // "colorScale"
+        QT_MOC_LITERAL(319, 14)   // "QCPColorScale*"
+    },
+    "QCPColorMap",
+    "dataRangeChanged",
+    "",
+    "QCPRange",
+    "newRange",
+    "dataScaleTypeChanged",
+    "QCPAxis::ScaleType",
+    "scaleType",
+    "gradientChanged",
+    "QCPColorGradient",
+    "newGradient",
+    "setDataRange",
+    "dataRange",
+    "setDataScaleType",
+    "setGradient",
+    "gradient",
+    "updateLegendIcon",
+    "Qt::TransformationMode",
+    "transformMode",
+    "thumbSize",
+    "dataScaleType",
+    "interpolate",
+    "tightBoundary",
+    "colorScale",
+    "QCPColorScale*"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPColorMapENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        9,   14, // methods
@@ -6125,7 +8079,7 @@ void QCPColorMap::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 5:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPColorScale* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPColorMap *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -6215,7 +8169,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPFinancialENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPFinancialENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPFinancialENDCLASS = QtMocHelpers::stringData(
     "QCPFinancial",
     "chartStyle",
     "ChartStyle",
@@ -6233,15 +8187,72 @@ constexpr auto qt_meta_stringdata_CLASSQCPFinancialENDCLASS = QtMocHelpers::stri
     "csOhlc",
     "csCandlestick"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPFinancialENDCLASS_t {
+    uint offsetsAndSizes[32];
+    char stringdata0[13];
+    char stringdata1[11];
+    char stringdata2[11];
+    char stringdata3[6];
+    char stringdata4[10];
+    char stringdata5[10];
+    char stringdata6[11];
+    char stringdata7[14];
+    char stringdata8[14];
+    char stringdata9[12];
+    char stringdata10[12];
+    char stringdata11[11];
+    char stringdata12[16];
+    char stringdata13[13];
+    char stringdata14[7];
+    char stringdata15[14];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPFinancialENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPFinancialENDCLASS_t qt_meta_stringdata_CLASSQCPFinancialENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 12),  // "QCPFinancial"
+        QT_MOC_LITERAL(13, 10),  // "chartStyle"
+        QT_MOC_LITERAL(24, 10),  // "ChartStyle"
+        QT_MOC_LITERAL(35, 5),  // "width"
+        QT_MOC_LITERAL(41, 9),  // "widthType"
+        QT_MOC_LITERAL(51, 9),  // "WidthType"
+        QT_MOC_LITERAL(61, 10),  // "twoColored"
+        QT_MOC_LITERAL(72, 13),  // "brushPositive"
+        QT_MOC_LITERAL(86, 13),  // "brushNegative"
+        QT_MOC_LITERAL(100, 11),  // "penPositive"
+        QT_MOC_LITERAL(112, 11),  // "penNegative"
+        QT_MOC_LITERAL(124, 10),  // "wtAbsolute"
+        QT_MOC_LITERAL(135, 15),  // "wtAxisRectRatio"
+        QT_MOC_LITERAL(151, 12),  // "wtPlotCoords"
+        QT_MOC_LITERAL(164, 6),  // "csOhlc"
+        QT_MOC_LITERAL(171, 13)   // "csCandlestick"
+    },
+    "QCPFinancial",
+    "chartStyle",
+    "ChartStyle",
+    "width",
+    "widthType",
+    "WidthType",
+    "twoColored",
+    "brushPositive",
+    "brushNegative",
+    "penPositive",
+    "penNegative",
+    "wtAbsolute",
+    "wtAxisRectRatio",
+    "wtPlotCoords",
+    "csOhlc",
+    "csCandlestick"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPFinancialENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -6298,10 +8309,6 @@ Q_CONSTINIT const QMetaObject QCPFinancial::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<QPen, std::true_type>,
         // property 'penNegative'
         QtPrivate::TypeAndForceComplete<QPen, std::true_type>,
-        // enum 'WidthType'
-        QtPrivate::TypeAndForceComplete<QCPFinancial::WidthType, std::true_type>,
-        // enum 'ChartStyle'
-        QtPrivate::TypeAndForceComplete<QCPFinancial::ChartStyle, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPFinancial, std::true_type>
     >,
@@ -6379,7 +8386,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPErrorBarsENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPErrorBarsENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPErrorBarsENDCLASS = QtMocHelpers::stringData(
     "QCPErrorBars",
     "data",
     "QSharedPointer<QCPErrorBarsDataContainer>",
@@ -6392,15 +8399,57 @@ constexpr auto qt_meta_stringdata_CLASSQCPErrorBarsENDCLASS = QtMocHelpers::stri
     "etKeyError",
     "etValueError"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPErrorBarsENDCLASS_t {
+    uint offsetsAndSizes[22];
+    char stringdata0[13];
+    char stringdata1[5];
+    char stringdata2[42];
+    char stringdata3[14];
+    char stringdata4[22];
+    char stringdata5[10];
+    char stringdata6[10];
+    char stringdata7[13];
+    char stringdata8[10];
+    char stringdata9[11];
+    char stringdata10[13];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPErrorBarsENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPErrorBarsENDCLASS_t qt_meta_stringdata_CLASSQCPErrorBarsENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 12),  // "QCPErrorBars"
+        QT_MOC_LITERAL(13, 4),  // "data"
+        QT_MOC_LITERAL(18, 41),  // "QSharedPointer<QCPErrorBarsDa..."
+        QT_MOC_LITERAL(60, 13),  // "dataPlottable"
+        QT_MOC_LITERAL(74, 21),  // "QCPAbstractPlottable*"
+        QT_MOC_LITERAL(96, 9),  // "errorType"
+        QT_MOC_LITERAL(106, 9),  // "ErrorType"
+        QT_MOC_LITERAL(116, 12),  // "whiskerWidth"
+        QT_MOC_LITERAL(129, 9),  // "symbolGap"
+        QT_MOC_LITERAL(139, 10),  // "etKeyError"
+        QT_MOC_LITERAL(150, 12)   // "etValueError"
+    },
+    "QCPErrorBars",
+    "data",
+    "QSharedPointer<QCPErrorBarsDataContainer>",
+    "dataPlottable",
+    "QCPAbstractPlottable*",
+    "errorType",
+    "ErrorType",
+    "whiskerWidth",
+    "symbolGap",
+    "etKeyError",
+    "etValueError"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPErrorBarsENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -6444,8 +8493,6 @@ Q_CONSTINIT const QMetaObject QCPErrorBars::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<double, std::true_type>,
         // property 'symbolGap'
         QtPrivate::TypeAndForceComplete<double, std::true_type>,
-        // enum 'ErrorType'
-        QtPrivate::TypeAndForceComplete<QCPErrorBars::ErrorType, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPErrorBars, std::true_type>
     >,
@@ -6460,7 +8507,7 @@ void QCPErrorBars::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 1:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPAbstractPlottable* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPErrorBars *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -6522,20 +8569,38 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemStraightLineENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemStraightLineENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemStraightLineENDCLASS = QtMocHelpers::stringData(
     "QCPItemStraightLine",
     "pen",
     "selectedPen"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemStraightLineENDCLASS_t {
+    uint offsetsAndSizes[6];
+    char stringdata0[20];
+    char stringdata1[4];
+    char stringdata2[12];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemStraightLineENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemStraightLineENDCLASS_t qt_meta_stringdata_CLASSQCPItemStraightLineENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 19),  // "QCPItemStraightLine"
+        QT_MOC_LITERAL(20, 3),  // "pen"
+        QT_MOC_LITERAL(24, 11)   // "selectedPen"
+    },
+    "QCPItemStraightLine",
+    "pen",
+    "selectedPen"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemStraightLineENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -6628,7 +8693,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemLineENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemLineENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemLineENDCLASS = QtMocHelpers::stringData(
     "QCPItemLine",
     "pen",
     "selectedPen",
@@ -6636,15 +8701,42 @@ constexpr auto qt_meta_stringdata_CLASSQCPItemLineENDCLASS = QtMocHelpers::strin
     "QCPLineEnding",
     "tail"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemLineENDCLASS_t {
+    uint offsetsAndSizes[12];
+    char stringdata0[12];
+    char stringdata1[4];
+    char stringdata2[12];
+    char stringdata3[5];
+    char stringdata4[14];
+    char stringdata5[5];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemLineENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemLineENDCLASS_t qt_meta_stringdata_CLASSQCPItemLineENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 11),  // "QCPItemLine"
+        QT_MOC_LITERAL(12, 3),  // "pen"
+        QT_MOC_LITERAL(16, 11),  // "selectedPen"
+        QT_MOC_LITERAL(28, 4),  // "head"
+        QT_MOC_LITERAL(33, 13),  // "QCPLineEnding"
+        QT_MOC_LITERAL(47, 4)   // "tail"
+    },
+    "QCPItemLine",
+    "pen",
+    "selectedPen",
+    "head",
+    "QCPLineEnding",
+    "tail"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemLineENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -6747,7 +8839,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemCurveENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemCurveENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemCurveENDCLASS = QtMocHelpers::stringData(
     "QCPItemCurve",
     "pen",
     "selectedPen",
@@ -6755,15 +8847,42 @@ constexpr auto qt_meta_stringdata_CLASSQCPItemCurveENDCLASS = QtMocHelpers::stri
     "QCPLineEnding",
     "tail"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemCurveENDCLASS_t {
+    uint offsetsAndSizes[12];
+    char stringdata0[13];
+    char stringdata1[4];
+    char stringdata2[12];
+    char stringdata3[5];
+    char stringdata4[14];
+    char stringdata5[5];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemCurveENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemCurveENDCLASS_t qt_meta_stringdata_CLASSQCPItemCurveENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 12),  // "QCPItemCurve"
+        QT_MOC_LITERAL(13, 3),  // "pen"
+        QT_MOC_LITERAL(17, 11),  // "selectedPen"
+        QT_MOC_LITERAL(29, 4),  // "head"
+        QT_MOC_LITERAL(34, 13),  // "QCPLineEnding"
+        QT_MOC_LITERAL(48, 4)   // "tail"
+    },
+    "QCPItemCurve",
+    "pen",
+    "selectedPen",
+    "head",
+    "QCPLineEnding",
+    "tail"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemCurveENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -6866,22 +8985,46 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemRectENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemRectENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemRectENDCLASS = QtMocHelpers::stringData(
     "QCPItemRect",
     "pen",
     "selectedPen",
     "brush",
     "selectedBrush"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemRectENDCLASS_t {
+    uint offsetsAndSizes[10];
+    char stringdata0[12];
+    char stringdata1[4];
+    char stringdata2[12];
+    char stringdata3[6];
+    char stringdata4[14];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemRectENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemRectENDCLASS_t qt_meta_stringdata_CLASSQCPItemRectENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 11),  // "QCPItemRect"
+        QT_MOC_LITERAL(12, 3),  // "pen"
+        QT_MOC_LITERAL(16, 11),  // "selectedPen"
+        QT_MOC_LITERAL(28, 5),  // "brush"
+        QT_MOC_LITERAL(34, 13)   // "selectedBrush"
+    },
+    "QCPItemRect",
+    "pen",
+    "selectedPen",
+    "brush",
+    "selectedBrush"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemRectENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -6984,7 +9127,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemTextENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemTextENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemTextENDCLASS = QtMocHelpers::stringData(
     "QCPItemText",
     "color",
     "selectedColor",
@@ -7002,15 +9145,72 @@ constexpr auto qt_meta_stringdata_CLASSQCPItemTextENDCLASS = QtMocHelpers::strin
     "padding",
     "QMargins"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemTextENDCLASS_t {
+    uint offsetsAndSizes[32];
+    char stringdata0[12];
+    char stringdata1[6];
+    char stringdata2[14];
+    char stringdata3[4];
+    char stringdata4[12];
+    char stringdata5[6];
+    char stringdata6[14];
+    char stringdata7[5];
+    char stringdata8[13];
+    char stringdata9[5];
+    char stringdata10[18];
+    char stringdata11[14];
+    char stringdata12[14];
+    char stringdata13[9];
+    char stringdata14[8];
+    char stringdata15[9];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemTextENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemTextENDCLASS_t qt_meta_stringdata_CLASSQCPItemTextENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 11),  // "QCPItemText"
+        QT_MOC_LITERAL(12, 5),  // "color"
+        QT_MOC_LITERAL(18, 13),  // "selectedColor"
+        QT_MOC_LITERAL(32, 3),  // "pen"
+        QT_MOC_LITERAL(36, 11),  // "selectedPen"
+        QT_MOC_LITERAL(48, 5),  // "brush"
+        QT_MOC_LITERAL(54, 13),  // "selectedBrush"
+        QT_MOC_LITERAL(68, 4),  // "font"
+        QT_MOC_LITERAL(73, 12),  // "selectedFont"
+        QT_MOC_LITERAL(86, 4),  // "text"
+        QT_MOC_LITERAL(91, 17),  // "positionAlignment"
+        QT_MOC_LITERAL(109, 13),  // "Qt::Alignment"
+        QT_MOC_LITERAL(123, 13),  // "textAlignment"
+        QT_MOC_LITERAL(137, 8),  // "rotation"
+        QT_MOC_LITERAL(146, 7),  // "padding"
+        QT_MOC_LITERAL(154, 8)   // "QMargins"
+    },
+    "QCPItemText",
+    "color",
+    "selectedColor",
+    "pen",
+    "selectedPen",
+    "brush",
+    "selectedBrush",
+    "font",
+    "selectedFont",
+    "text",
+    "positionAlignment",
+    "Qt::Alignment",
+    "textAlignment",
+    "rotation",
+    "padding",
+    "QMargins"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemTextENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -7158,22 +9358,46 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemEllipseENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemEllipseENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemEllipseENDCLASS = QtMocHelpers::stringData(
     "QCPItemEllipse",
     "pen",
     "selectedPen",
     "brush",
     "selectedBrush"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemEllipseENDCLASS_t {
+    uint offsetsAndSizes[10];
+    char stringdata0[15];
+    char stringdata1[4];
+    char stringdata2[12];
+    char stringdata3[6];
+    char stringdata4[14];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemEllipseENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemEllipseENDCLASS_t qt_meta_stringdata_CLASSQCPItemEllipseENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 14),  // "QCPItemEllipse"
+        QT_MOC_LITERAL(15, 3),  // "pen"
+        QT_MOC_LITERAL(19, 11),  // "selectedPen"
+        QT_MOC_LITERAL(31, 5),  // "brush"
+        QT_MOC_LITERAL(37, 13)   // "selectedBrush"
+    },
+    "QCPItemEllipse",
+    "pen",
+    "selectedPen",
+    "brush",
+    "selectedBrush"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemEllipseENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -7276,7 +9500,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemPixmapENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemPixmapENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemPixmapENDCLASS = QtMocHelpers::stringData(
     "QCPItemPixmap",
     "pixmap",
     "scaled",
@@ -7287,15 +9511,51 @@ constexpr auto qt_meta_stringdata_CLASSQCPItemPixmapENDCLASS = QtMocHelpers::str
     "pen",
     "selectedPen"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemPixmapENDCLASS_t {
+    uint offsetsAndSizes[18];
+    char stringdata0[14];
+    char stringdata1[7];
+    char stringdata2[7];
+    char stringdata3[16];
+    char stringdata4[20];
+    char stringdata5[19];
+    char stringdata6[23];
+    char stringdata7[4];
+    char stringdata8[12];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemPixmapENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemPixmapENDCLASS_t qt_meta_stringdata_CLASSQCPItemPixmapENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 13),  // "QCPItemPixmap"
+        QT_MOC_LITERAL(14, 6),  // "pixmap"
+        QT_MOC_LITERAL(21, 6),  // "scaled"
+        QT_MOC_LITERAL(28, 15),  // "aspectRatioMode"
+        QT_MOC_LITERAL(44, 19),  // "Qt::AspectRatioMode"
+        QT_MOC_LITERAL(64, 18),  // "transformationMode"
+        QT_MOC_LITERAL(83, 22),  // "Qt::TransformationMode"
+        QT_MOC_LITERAL(106, 3),  // "pen"
+        QT_MOC_LITERAL(110, 11)   // "selectedPen"
+    },
+    "QCPItemPixmap",
+    "pixmap",
+    "scaled",
+    "aspectRatioMode",
+    "Qt::AspectRatioMode",
+    "transformationMode",
+    "Qt::TransformationMode",
+    "pen",
+    "selectedPen"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemPixmapENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -7406,7 +9666,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemTracerENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemTracerENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemTracerENDCLASS = QtMocHelpers::stringData(
     "QCPItemTracer",
     "pen",
     "selectedPen",
@@ -7425,15 +9685,75 @@ constexpr auto qt_meta_stringdata_CLASSQCPItemTracerENDCLASS = QtMocHelpers::str
     "tsCircle",
     "tsSquare"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemTracerENDCLASS_t {
+    uint offsetsAndSizes[34];
+    char stringdata0[14];
+    char stringdata1[4];
+    char stringdata2[12];
+    char stringdata3[6];
+    char stringdata4[14];
+    char stringdata5[5];
+    char stringdata6[6];
+    char stringdata7[12];
+    char stringdata8[6];
+    char stringdata9[10];
+    char stringdata10[9];
+    char stringdata11[14];
+    char stringdata12[7];
+    char stringdata13[7];
+    char stringdata14[12];
+    char stringdata15[9];
+    char stringdata16[9];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemTracerENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemTracerENDCLASS_t qt_meta_stringdata_CLASSQCPItemTracerENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 13),  // "QCPItemTracer"
+        QT_MOC_LITERAL(14, 3),  // "pen"
+        QT_MOC_LITERAL(18, 11),  // "selectedPen"
+        QT_MOC_LITERAL(30, 5),  // "brush"
+        QT_MOC_LITERAL(36, 13),  // "selectedBrush"
+        QT_MOC_LITERAL(50, 4),  // "size"
+        QT_MOC_LITERAL(55, 5),  // "style"
+        QT_MOC_LITERAL(61, 11),  // "TracerStyle"
+        QT_MOC_LITERAL(73, 5),  // "graph"
+        QT_MOC_LITERAL(79, 9),  // "QCPGraph*"
+        QT_MOC_LITERAL(89, 8),  // "graphKey"
+        QT_MOC_LITERAL(98, 13),  // "interpolating"
+        QT_MOC_LITERAL(112, 6),  // "tsNone"
+        QT_MOC_LITERAL(119, 6),  // "tsPlus"
+        QT_MOC_LITERAL(126, 11),  // "tsCrosshair"
+        QT_MOC_LITERAL(138, 8),  // "tsCircle"
+        QT_MOC_LITERAL(147, 8)   // "tsSquare"
+    },
+    "QCPItemTracer",
+    "pen",
+    "selectedPen",
+    "brush",
+    "selectedBrush",
+    "size",
+    "style",
+    "TracerStyle",
+    "graph",
+    "QCPGraph*",
+    "graphKey",
+    "interpolating",
+    "tsNone",
+    "tsPlus",
+    "tsCrosshair",
+    "tsCircle",
+    "tsSquare"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemTracerENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -7492,8 +9812,6 @@ Q_CONSTINIT const QMetaObject QCPItemTracer::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<double, std::true_type>,
         // property 'interpolating'
         QtPrivate::TypeAndForceComplete<bool, std::true_type>,
-        // enum 'TracerStyle'
-        QtPrivate::TypeAndForceComplete<QCPItemTracer::TracerStyle, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPItemTracer, std::true_type>
     >,
@@ -7508,7 +9826,7 @@ void QCPItemTracer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 6:
             *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QCPGraph* >(); break;
         }
-    }  else if (_c == QMetaObject::ReadProperty) {
+    } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<QCPItemTracer *>(_o);
         (void)_t;
         void *_v = _a[0];
@@ -7576,7 +9894,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPItemBracketENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPItemBracketENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPItemBracketENDCLASS = QtMocHelpers::stringData(
     "QCPItemBracket",
     "pen",
     "selectedPen",
@@ -7588,15 +9906,54 @@ constexpr auto qt_meta_stringdata_CLASSQCPItemBracketENDCLASS = QtMocHelpers::st
     "bsCurly",
     "bsCalligraphic"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPItemBracketENDCLASS_t {
+    uint offsetsAndSizes[20];
+    char stringdata0[15];
+    char stringdata1[4];
+    char stringdata2[12];
+    char stringdata3[7];
+    char stringdata4[6];
+    char stringdata5[13];
+    char stringdata6[9];
+    char stringdata7[8];
+    char stringdata8[8];
+    char stringdata9[15];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPItemBracketENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPItemBracketENDCLASS_t qt_meta_stringdata_CLASSQCPItemBracketENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 14),  // "QCPItemBracket"
+        QT_MOC_LITERAL(15, 3),  // "pen"
+        QT_MOC_LITERAL(19, 11),  // "selectedPen"
+        QT_MOC_LITERAL(31, 6),  // "length"
+        QT_MOC_LITERAL(38, 5),  // "style"
+        QT_MOC_LITERAL(44, 12),  // "BracketStyle"
+        QT_MOC_LITERAL(57, 8),  // "bsSquare"
+        QT_MOC_LITERAL(66, 7),  // "bsRound"
+        QT_MOC_LITERAL(74, 7),  // "bsCurly"
+        QT_MOC_LITERAL(82, 14)   // "bsCalligraphic"
+    },
+    "QCPItemBracket",
+    "pen",
+    "selectedPen",
+    "length",
+    "style",
+    "BracketStyle",
+    "bsSquare",
+    "bsRound",
+    "bsCurly",
+    "bsCalligraphic"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPItemBracketENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -7639,8 +9996,6 @@ Q_CONSTINIT const QMetaObject QCPItemBracket::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<double, std::true_type>,
         // property 'style'
         QtPrivate::TypeAndForceComplete<BracketStyle, std::true_type>,
-        // enum 'BracketStyle'
-        QtPrivate::TypeAndForceComplete<QCPItemBracket::BracketStyle, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPItemBracket, std::true_type>
     >,
@@ -7710,7 +10065,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPPolarAxisRadialENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPPolarAxisRadialENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPPolarAxisRadialENDCLASS = QtMocHelpers::stringData(
     "QCPPolarAxisRadial",
     "rangeChanged",
     "",
@@ -7748,15 +10103,132 @@ constexpr auto qt_meta_stringdata_CLASSQCPPolarAxisRadialENDCLASS = QtMocHelpers
     "lmUpright",
     "lmRotated"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPPolarAxisRadialENDCLASS_t {
+    uint offsetsAndSizes[72];
+    char stringdata0[19];
+    char stringdata1[13];
+    char stringdata2[1];
+    char stringdata3[9];
+    char stringdata4[9];
+    char stringdata5[9];
+    char stringdata6[17];
+    char stringdata7[30];
+    char stringdata8[10];
+    char stringdata9[17];
+    char stringdata10[36];
+    char stringdata11[6];
+    char stringdata12[18];
+    char stringdata13[13];
+    char stringdata14[5];
+    char stringdata15[9];
+    char stringdata16[6];
+    char stringdata17[19];
+    char stringdata18[16];
+    char stringdata19[17];
+    char stringdata20[14];
+    char stringdata21[15];
+    char stringdata22[11];
+    char stringdata23[14];
+    char stringdata24[10];
+    char stringdata25[9];
+    char stringdata26[14];
+    char stringdata27[15];
+    char stringdata28[7];
+    char stringdata29[7];
+    char stringdata30[13];
+    char stringdata31[12];
+    char stringdata32[16];
+    char stringdata33[10];
+    char stringdata34[10];
+    char stringdata35[10];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPPolarAxisRadialENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPPolarAxisRadialENDCLASS_t qt_meta_stringdata_CLASSQCPPolarAxisRadialENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 18),  // "QCPPolarAxisRadial"
+        QT_MOC_LITERAL(19, 12),  // "rangeChanged"
+        QT_MOC_LITERAL(32, 0),  // ""
+        QT_MOC_LITERAL(33, 8),  // "QCPRange"
+        QT_MOC_LITERAL(42, 8),  // "newRange"
+        QT_MOC_LITERAL(51, 8),  // "oldRange"
+        QT_MOC_LITERAL(60, 16),  // "scaleTypeChanged"
+        QT_MOC_LITERAL(77, 29),  // "QCPPolarAxisRadial::ScaleType"
+        QT_MOC_LITERAL(107, 9),  // "scaleType"
+        QT_MOC_LITERAL(117, 16),  // "selectionChanged"
+        QT_MOC_LITERAL(134, 35),  // "QCPPolarAxisRadial::Selectabl..."
+        QT_MOC_LITERAL(170, 5),  // "parts"
+        QT_MOC_LITERAL(176, 17),  // "selectableChanged"
+        QT_MOC_LITERAL(194, 12),  // "setScaleType"
+        QT_MOC_LITERAL(207, 4),  // "type"
+        QT_MOC_LITERAL(212, 8),  // "setRange"
+        QT_MOC_LITERAL(221, 5),  // "range"
+        QT_MOC_LITERAL(227, 18),  // "setSelectableParts"
+        QT_MOC_LITERAL(246, 15),  // "selectableParts"
+        QT_MOC_LITERAL(262, 16),  // "setSelectedParts"
+        QT_MOC_LITERAL(279, 13),  // "selectedParts"
+        QT_MOC_LITERAL(293, 14),  // "AngleReference"
+        QT_MOC_LITERAL(308, 10),  // "arAbsolute"
+        QT_MOC_LITERAL(319, 13),  // "arAngularAxis"
+        QT_MOC_LITERAL(333, 9),  // "ScaleType"
+        QT_MOC_LITERAL(343, 8),  // "stLinear"
+        QT_MOC_LITERAL(352, 13),  // "stLogarithmic"
+        QT_MOC_LITERAL(366, 14),  // "SelectablePart"
+        QT_MOC_LITERAL(381, 6),  // "spNone"
+        QT_MOC_LITERAL(388, 6),  // "spAxis"
+        QT_MOC_LITERAL(395, 12),  // "spTickLabels"
+        QT_MOC_LITERAL(408, 11),  // "spAxisLabel"
+        QT_MOC_LITERAL(420, 15),  // "SelectableParts"
+        QT_MOC_LITERAL(436, 9),  // "LabelMode"
+        QT_MOC_LITERAL(446, 9),  // "lmUpright"
+        QT_MOC_LITERAL(456, 9)   // "lmRotated"
+    },
+    "QCPPolarAxisRadial",
+    "rangeChanged",
+    "",
+    "QCPRange",
+    "newRange",
+    "oldRange",
+    "scaleTypeChanged",
+    "QCPPolarAxisRadial::ScaleType",
+    "scaleType",
+    "selectionChanged",
+    "QCPPolarAxisRadial::SelectableParts",
+    "parts",
+    "selectableChanged",
+    "setScaleType",
+    "type",
+    "setRange",
+    "range",
+    "setSelectableParts",
+    "selectableParts",
+    "setSelectedParts",
+    "selectedParts",
+    "AngleReference",
+    "arAbsolute",
+    "arAngularAxis",
+    "ScaleType",
+    "stLinear",
+    "stLogarithmic",
+    "SelectablePart",
+    "spNone",
+    "spAxis",
+    "spTickLabels",
+    "spAxisLabel",
+    "SelectableParts",
+    "LabelMode",
+    "lmUpright",
+    "lmRotated"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPPolarAxisRadialENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        9,   14, // methods
@@ -7767,17 +10239,17 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSQCPPolarAxisRadialENDCLASS[] = {
        5,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   68,    2, 0x06,    6 /* Public */,
-       1,    2,   71,    2, 0x06,    8 /* Public */,
-       6,    1,   76,    2, 0x06,   11 /* Public */,
-       9,    1,   79,    2, 0x06,   13 /* Public */,
-      12,    1,   82,    2, 0x06,   15 /* Public */,
+       1,    1,   68,    2, 0x06,    1 /* Public */,
+       1,    2,   71,    2, 0x06,    3 /* Public */,
+       6,    1,   76,    2, 0x06,    6 /* Public */,
+       9,    1,   79,    2, 0x06,    8 /* Public */,
+      12,    1,   82,    2, 0x06,   10 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      13,    1,   85,    2, 0x0a,   17 /* Public */,
-      15,    1,   88,    2, 0x0a,   19 /* Public */,
-      17,    1,   91,    2, 0x0a,   21 /* Public */,
-      19,    1,   94,    2, 0x0a,   23 /* Public */,
+      13,    1,   85,    2, 0x0a,   12 /* Public */,
+      15,    1,   88,    2, 0x0a,   14 /* Public */,
+      17,    1,   91,    2, 0x0a,   16 /* Public */,
+      19,    1,   94,    2, 0x0a,   18 /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
@@ -7825,16 +10297,6 @@ Q_CONSTINIT const QMetaObject QCPPolarAxisRadial::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPPolarAxisRadialENDCLASS_t,
-        // enum 'AngleReference'
-        QtPrivate::TypeAndForceComplete<QCPPolarAxisRadial::AngleReference, std::true_type>,
-        // enum 'ScaleType'
-        QtPrivate::TypeAndForceComplete<QCPPolarAxisRadial::ScaleType, std::true_type>,
-        // enum 'SelectablePart'
-        QtPrivate::TypeAndForceComplete<QCPPolarAxisRadial::SelectablePart, std::true_type>,
-        // enum 'SelectableParts'
-        QtPrivate::TypeAndForceComplete<QCPPolarAxisRadial::SelectableParts, std::true_type>,
-        // enum 'LabelMode'
-        QtPrivate::TypeAndForceComplete<QCPPolarAxisRadial::LabelMode, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPPolarAxisRadial, std::true_type>,
         // method 'rangeChanged'
@@ -8012,7 +10474,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPPolarAxisAngularENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPPolarAxisAngularENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPPolarAxisAngularENDCLASS = QtMocHelpers::stringData(
     "QCPPolarAxisAngular",
     "rangeChanged",
     "",
@@ -8039,15 +10501,99 @@ constexpr auto qt_meta_stringdata_CLASSQCPPolarAxisAngularENDCLASS = QtMocHelper
     "lmUpright",
     "lmRotated"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPPolarAxisAngularENDCLASS_t {
+    uint offsetsAndSizes[50];
+    char stringdata0[20];
+    char stringdata1[13];
+    char stringdata2[1];
+    char stringdata3[9];
+    char stringdata4[9];
+    char stringdata5[9];
+    char stringdata6[17];
+    char stringdata7[37];
+    char stringdata8[6];
+    char stringdata9[18];
+    char stringdata10[9];
+    char stringdata11[6];
+    char stringdata12[19];
+    char stringdata13[16];
+    char stringdata14[17];
+    char stringdata15[14];
+    char stringdata16[15];
+    char stringdata17[7];
+    char stringdata18[7];
+    char stringdata19[13];
+    char stringdata20[12];
+    char stringdata21[16];
+    char stringdata22[10];
+    char stringdata23[10];
+    char stringdata24[10];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPPolarAxisAngularENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPPolarAxisAngularENDCLASS_t qt_meta_stringdata_CLASSQCPPolarAxisAngularENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 19),  // "QCPPolarAxisAngular"
+        QT_MOC_LITERAL(20, 12),  // "rangeChanged"
+        QT_MOC_LITERAL(33, 0),  // ""
+        QT_MOC_LITERAL(34, 8),  // "QCPRange"
+        QT_MOC_LITERAL(43, 8),  // "newRange"
+        QT_MOC_LITERAL(52, 8),  // "oldRange"
+        QT_MOC_LITERAL(61, 16),  // "selectionChanged"
+        QT_MOC_LITERAL(78, 36),  // "QCPPolarAxisAngular::Selectab..."
+        QT_MOC_LITERAL(115, 5),  // "parts"
+        QT_MOC_LITERAL(121, 17),  // "selectableChanged"
+        QT_MOC_LITERAL(139, 8),  // "setRange"
+        QT_MOC_LITERAL(148, 5),  // "range"
+        QT_MOC_LITERAL(154, 18),  // "setSelectableParts"
+        QT_MOC_LITERAL(173, 15),  // "selectableParts"
+        QT_MOC_LITERAL(189, 16),  // "setSelectedParts"
+        QT_MOC_LITERAL(206, 13),  // "selectedParts"
+        QT_MOC_LITERAL(220, 14),  // "SelectablePart"
+        QT_MOC_LITERAL(235, 6),  // "spNone"
+        QT_MOC_LITERAL(242, 6),  // "spAxis"
+        QT_MOC_LITERAL(249, 12),  // "spTickLabels"
+        QT_MOC_LITERAL(262, 11),  // "spAxisLabel"
+        QT_MOC_LITERAL(274, 15),  // "SelectableParts"
+        QT_MOC_LITERAL(290, 9),  // "LabelMode"
+        QT_MOC_LITERAL(300, 9),  // "lmUpright"
+        QT_MOC_LITERAL(310, 9)   // "lmRotated"
+    },
+    "QCPPolarAxisAngular",
+    "rangeChanged",
+    "",
+    "QCPRange",
+    "newRange",
+    "oldRange",
+    "selectionChanged",
+    "QCPPolarAxisAngular::SelectableParts",
+    "parts",
+    "selectableChanged",
+    "setRange",
+    "range",
+    "setSelectableParts",
+    "selectableParts",
+    "setSelectedParts",
+    "selectedParts",
+    "SelectablePart",
+    "spNone",
+    "spAxis",
+    "spTickLabels",
+    "spAxisLabel",
+    "SelectableParts",
+    "LabelMode",
+    "lmUpright",
+    "lmRotated"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPPolarAxisAngularENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        7,   14, // methods
@@ -8058,15 +10604,15 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSQCPPolarAxisAngularENDCLASS[] = 
        4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   56,    2, 0x06,    4 /* Public */,
-       1,    2,   59,    2, 0x06,    6 /* Public */,
-       6,    1,   64,    2, 0x06,    9 /* Public */,
-       9,    1,   67,    2, 0x06,   11 /* Public */,
+       1,    1,   56,    2, 0x06,    1 /* Public */,
+       1,    2,   59,    2, 0x06,    3 /* Public */,
+       6,    1,   64,    2, 0x06,    6 /* Public */,
+       9,    1,   67,    2, 0x06,    8 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      10,    1,   70,    2, 0x0a,   13 /* Public */,
-      12,    1,   73,    2, 0x0a,   15 /* Public */,
-      14,    1,   76,    2, 0x0a,   17 /* Public */,
+      10,    1,   70,    2, 0x0a,   10 /* Public */,
+      12,    1,   73,    2, 0x0a,   12 /* Public */,
+      14,    1,   76,    2, 0x0a,   14 /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
@@ -8106,12 +10652,6 @@ Q_CONSTINIT const QMetaObject QCPPolarAxisAngular::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPPolarAxisAngularENDCLASS_t,
-        // enum 'SelectablePart'
-        QtPrivate::TypeAndForceComplete<QCPPolarAxisAngular::SelectablePart, std::true_type>,
-        // enum 'SelectableParts'
-        QtPrivate::TypeAndForceComplete<QCPPolarAxisAngular::SelectableParts, std::true_type>,
-        // enum 'LabelMode'
-        QtPrivate::TypeAndForceComplete<QCPPolarAxisAngular::LabelMode, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPPolarAxisAngular, std::true_type>,
         // method 'rangeChanged'
@@ -8249,7 +10789,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPPolarGridENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPPolarGridENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPPolarGridENDCLASS = QtMocHelpers::stringData(
     "QCPPolarGrid",
     "GridType",
     "gtAngular",
@@ -8258,15 +10798,45 @@ constexpr auto qt_meta_stringdata_CLASSQCPPolarGridENDCLASS = QtMocHelpers::stri
     "gtNone",
     "GridTypes"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPPolarGridENDCLASS_t {
+    uint offsetsAndSizes[14];
+    char stringdata0[13];
+    char stringdata1[9];
+    char stringdata2[10];
+    char stringdata3[9];
+    char stringdata4[6];
+    char stringdata5[7];
+    char stringdata6[10];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPPolarGridENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPPolarGridENDCLASS_t qt_meta_stringdata_CLASSQCPPolarGridENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 12),  // "QCPPolarGrid"
+        QT_MOC_LITERAL(13, 8),  // "GridType"
+        QT_MOC_LITERAL(22, 9),  // "gtAngular"
+        QT_MOC_LITERAL(32, 8),  // "gtRadial"
+        QT_MOC_LITERAL(41, 5),  // "gtAll"
+        QT_MOC_LITERAL(47, 6),  // "gtNone"
+        QT_MOC_LITERAL(54, 9)   // "GridTypes"
+    },
+    "QCPPolarGrid",
+    "GridType",
+    "gtAngular",
+    "gtRadial",
+    "gtAll",
+    "gtNone",
+    "GridTypes"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPPolarGridENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -8300,10 +10870,6 @@ Q_CONSTINIT const QMetaObject QCPPolarGrid::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPPolarGridENDCLASS_t,
-        // enum 'GridType'
-        QtPrivate::TypeAndForceComplete<QCPPolarGrid::GridType, std::true_type>,
-        // enum 'GridTypes'
-        QtPrivate::TypeAndForceComplete<QCPPolarGrid::GridTypes, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPPolarGrid, std::true_type>
     >,
@@ -8340,18 +10906,30 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPPolarLegendItemENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPPolarLegendItemENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPPolarLegendItemENDCLASS = QtMocHelpers::stringData(
     "QCPPolarLegendItem"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPPolarLegendItemENDCLASS_t {
+    uint offsetsAndSizes[2];
+    char stringdata0[19];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPPolarLegendItemENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPPolarLegendItemENDCLASS_t qt_meta_stringdata_CLASSQCPPolarLegendItemENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 18)   // "QCPPolarLegendItem"
+    },
+    "QCPPolarLegendItem"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPPolarLegendItemENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -8407,7 +10985,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPPolarGraphENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPPolarGraphENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPPolarGraphENDCLASS = QtMocHelpers::stringData(
     "QCPPolarGraph",
     "selectionChanged",
     "",
@@ -8423,15 +11001,66 @@ constexpr auto qt_meta_stringdata_CLASSQCPPolarGraphENDCLASS = QtMocHelpers::str
     "lsNone",
     "lsLine"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPPolarGraphENDCLASS_t {
+    uint offsetsAndSizes[28];
+    char stringdata0[14];
+    char stringdata1[17];
+    char stringdata2[1];
+    char stringdata3[9];
+    char stringdata4[17];
+    char stringdata5[10];
+    char stringdata6[18];
+    char stringdata7[19];
+    char stringdata8[11];
+    char stringdata9[14];
+    char stringdata10[13];
+    char stringdata11[10];
+    char stringdata12[7];
+    char stringdata13[7];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPPolarGraphENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPPolarGraphENDCLASS_t qt_meta_stringdata_CLASSQCPPolarGraphENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 13),  // "QCPPolarGraph"
+        QT_MOC_LITERAL(14, 16),  // "selectionChanged"
+        QT_MOC_LITERAL(31, 0),  // ""
+        QT_MOC_LITERAL(32, 8),  // "selected"
+        QT_MOC_LITERAL(41, 16),  // "QCPDataSelection"
+        QT_MOC_LITERAL(58, 9),  // "selection"
+        QT_MOC_LITERAL(68, 17),  // "selectableChanged"
+        QT_MOC_LITERAL(86, 18),  // "QCP::SelectionType"
+        QT_MOC_LITERAL(105, 10),  // "selectable"
+        QT_MOC_LITERAL(116, 13),  // "setSelectable"
+        QT_MOC_LITERAL(130, 12),  // "setSelection"
+        QT_MOC_LITERAL(143, 9),  // "LineStyle"
+        QT_MOC_LITERAL(153, 6),  // "lsNone"
+        QT_MOC_LITERAL(160, 6)   // "lsLine"
+    },
+    "QCPPolarGraph",
+    "selectionChanged",
+    "",
+    "selected",
+    "QCPDataSelection",
+    "selection",
+    "selectableChanged",
+    "QCP::SelectionType",
+    "selectable",
+    "setSelectable",
+    "setSelection",
+    "LineStyle",
+    "lsNone",
+    "lsLine"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPPolarGraphENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        5,   14, // methods
@@ -8442,13 +11071,13 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSQCPPolarGraphENDCLASS[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   44,    2, 0x06,    2 /* Public */,
-       1,    1,   47,    2, 0x06,    4 /* Public */,
-       6,    1,   50,    2, 0x06,    6 /* Public */,
+       1,    1,   44,    2, 0x06,    1 /* Public */,
+       1,    1,   47,    2, 0x06,    3 /* Public */,
+       6,    1,   50,    2, 0x06,    5 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       9,    1,   53,    2, 0x0a,    8 /* Public */,
-      10,    1,   56,    2, 0x0a,   10 /* Public */,
+       9,    1,   53,    2, 0x0a,    7 /* Public */,
+      10,    1,   56,    2, 0x0a,    9 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Bool,    3,
@@ -8476,8 +11105,6 @@ Q_CONSTINIT const QMetaObject QCPPolarGraph::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPPolarGraphENDCLASS_t,
-        // enum 'LineStyle'
-        QtPrivate::TypeAndForceComplete<QCPPolarGraph::LineStyle, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<QCPPolarGraph, std::true_type>,
         // method 'selectionChanged'
@@ -8610,7 +11237,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSQCPENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSQCPENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSQCPENDCLASS = QtMocHelpers::stringData(
     "QCP",
     "ResolutionUnit",
     "ruDotsPerMeter",
@@ -8676,15 +11303,216 @@ constexpr auto qt_meta_stringdata_CLASSQCPENDCLASS = QtMocHelpers::stringData(
     "stDataRange",
     "stMultipleDataRanges"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSQCPENDCLASS_t {
+    uint offsetsAndSizes[128];
+    char stringdata0[4];
+    char stringdata1[15];
+    char stringdata2[15];
+    char stringdata3[20];
+    char stringdata4[14];
+    char stringdata5[10];
+    char stringdata6[13];
+    char stringdata7[16];
+    char stringdata8[11];
+    char stringdata9[11];
+    char stringdata10[7];
+    char stringdata11[11];
+    char stringdata12[11];
+    char stringdata13[7];
+    char stringdata14[8];
+    char stringdata15[6];
+    char stringdata16[9];
+    char stringdata17[6];
+    char stringdata18[7];
+    char stringdata19[12];
+    char stringdata20[19];
+    char stringdata21[7];
+    char stringdata22[7];
+    char stringdata23[10];
+    char stringdata24[9];
+    char stringdata25[14];
+    char stringdata26[13];
+    char stringdata27[8];
+    char stringdata28[11];
+    char stringdata29[8];
+    char stringdata30[11];
+    char stringdata31[8];
+    char stringdata32[6];
+    char stringdata33[7];
+    char stringdata34[20];
+    char stringdata35[13];
+    char stringdata36[7];
+    char stringdata37[16];
+    char stringdata38[19];
+    char stringdata39[14];
+    char stringdata40[14];
+    char stringdata41[12];
+    char stringdata42[6];
+    char stringdata43[11];
+    char stringdata44[11];
+    char stringdata45[13];
+    char stringdata46[18];
+    char stringdata47[12];
+    char stringdata48[14];
+    char stringdata49[13];
+    char stringdata50[13];
+    char stringdata51[32];
+    char stringdata52[13];
+    char stringdata53[18];
+    char stringdata54[8];
+    char stringdata55[8];
+    char stringdata56[10];
+    char stringdata57[10];
+    char stringdata58[14];
+    char stringdata59[7];
+    char stringdata60[8];
+    char stringdata61[13];
+    char stringdata62[12];
+    char stringdata63[21];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSQCPENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSQCPENDCLASS_t qt_meta_stringdata_CLASSQCPENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 3),  // "QCP"
+        QT_MOC_LITERAL(4, 14),  // "ResolutionUnit"
+        QT_MOC_LITERAL(19, 14),  // "ruDotsPerMeter"
+        QT_MOC_LITERAL(34, 19),  // "ruDotsPerCentimeter"
+        QT_MOC_LITERAL(54, 13),  // "ruDotsPerInch"
+        QT_MOC_LITERAL(68, 9),  // "ExportPen"
+        QT_MOC_LITERAL(78, 12),  // "epNoCosmetic"
+        QT_MOC_LITERAL(91, 15),  // "epAllowCosmetic"
+        QT_MOC_LITERAL(107, 10),  // "SignDomain"
+        QT_MOC_LITERAL(118, 10),  // "sdNegative"
+        QT_MOC_LITERAL(129, 6),  // "sdBoth"
+        QT_MOC_LITERAL(136, 10),  // "sdPositive"
+        QT_MOC_LITERAL(147, 10),  // "MarginSide"
+        QT_MOC_LITERAL(158, 6),  // "msLeft"
+        QT_MOC_LITERAL(165, 7),  // "msRight"
+        QT_MOC_LITERAL(173, 5),  // "msTop"
+        QT_MOC_LITERAL(179, 8),  // "msBottom"
+        QT_MOC_LITERAL(188, 5),  // "msAll"
+        QT_MOC_LITERAL(194, 6),  // "msNone"
+        QT_MOC_LITERAL(201, 11),  // "MarginSides"
+        QT_MOC_LITERAL(213, 18),  // "AntialiasedElement"
+        QT_MOC_LITERAL(232, 6),  // "aeAxes"
+        QT_MOC_LITERAL(239, 6),  // "aeGrid"
+        QT_MOC_LITERAL(246, 9),  // "aeSubGrid"
+        QT_MOC_LITERAL(256, 8),  // "aeLegend"
+        QT_MOC_LITERAL(265, 13),  // "aeLegendItems"
+        QT_MOC_LITERAL(279, 12),  // "aePlottables"
+        QT_MOC_LITERAL(292, 7),  // "aeItems"
+        QT_MOC_LITERAL(300, 10),  // "aeScatters"
+        QT_MOC_LITERAL(311, 7),  // "aeFills"
+        QT_MOC_LITERAL(319, 10),  // "aeZeroLine"
+        QT_MOC_LITERAL(330, 7),  // "aeOther"
+        QT_MOC_LITERAL(338, 5),  // "aeAll"
+        QT_MOC_LITERAL(344, 6),  // "aeNone"
+        QT_MOC_LITERAL(351, 19),  // "AntialiasedElements"
+        QT_MOC_LITERAL(371, 12),  // "PlottingHint"
+        QT_MOC_LITERAL(384, 6),  // "phNone"
+        QT_MOC_LITERAL(391, 15),  // "phFastPolylines"
+        QT_MOC_LITERAL(407, 18),  // "phImmediateRefresh"
+        QT_MOC_LITERAL(426, 13),  // "phCacheLabels"
+        QT_MOC_LITERAL(440, 13),  // "PlottingHints"
+        QT_MOC_LITERAL(454, 11),  // "Interaction"
+        QT_MOC_LITERAL(466, 5),  // "iNone"
+        QT_MOC_LITERAL(472, 10),  // "iRangeDrag"
+        QT_MOC_LITERAL(483, 10),  // "iRangeZoom"
+        QT_MOC_LITERAL(494, 12),  // "iMultiSelect"
+        QT_MOC_LITERAL(507, 17),  // "iSelectPlottables"
+        QT_MOC_LITERAL(525, 11),  // "iSelectAxes"
+        QT_MOC_LITERAL(537, 13),  // "iSelectLegend"
+        QT_MOC_LITERAL(551, 12),  // "iSelectItems"
+        QT_MOC_LITERAL(564, 12),  // "iSelectOther"
+        QT_MOC_LITERAL(577, 31),  // "iSelectPlottablesBeyondAxisRect"
+        QT_MOC_LITERAL(609, 12),  // "Interactions"
+        QT_MOC_LITERAL(622, 17),  // "SelectionRectMode"
+        QT_MOC_LITERAL(640, 7),  // "srmNone"
+        QT_MOC_LITERAL(648, 7),  // "srmZoom"
+        QT_MOC_LITERAL(656, 9),  // "srmSelect"
+        QT_MOC_LITERAL(666, 9),  // "srmCustom"
+        QT_MOC_LITERAL(676, 13),  // "SelectionType"
+        QT_MOC_LITERAL(690, 6),  // "stNone"
+        QT_MOC_LITERAL(697, 7),  // "stWhole"
+        QT_MOC_LITERAL(705, 12),  // "stSingleData"
+        QT_MOC_LITERAL(718, 11),  // "stDataRange"
+        QT_MOC_LITERAL(730, 20)   // "stMultipleDataRanges"
+    },
+    "QCP",
+    "ResolutionUnit",
+    "ruDotsPerMeter",
+    "ruDotsPerCentimeter",
+    "ruDotsPerInch",
+    "ExportPen",
+    "epNoCosmetic",
+    "epAllowCosmetic",
+    "SignDomain",
+    "sdNegative",
+    "sdBoth",
+    "sdPositive",
+    "MarginSide",
+    "msLeft",
+    "msRight",
+    "msTop",
+    "msBottom",
+    "msAll",
+    "msNone",
+    "MarginSides",
+    "AntialiasedElement",
+    "aeAxes",
+    "aeGrid",
+    "aeSubGrid",
+    "aeLegend",
+    "aeLegendItems",
+    "aePlottables",
+    "aeItems",
+    "aeScatters",
+    "aeFills",
+    "aeZeroLine",
+    "aeOther",
+    "aeAll",
+    "aeNone",
+    "AntialiasedElements",
+    "PlottingHint",
+    "phNone",
+    "phFastPolylines",
+    "phImmediateRefresh",
+    "phCacheLabels",
+    "PlottingHints",
+    "Interaction",
+    "iNone",
+    "iRangeDrag",
+    "iRangeZoom",
+    "iMultiSelect",
+    "iSelectPlottables",
+    "iSelectAxes",
+    "iSelectLegend",
+    "iSelectItems",
+    "iSelectOther",
+    "iSelectPlottablesBeyondAxisRect",
+    "Interactions",
+    "SelectionRectMode",
+    "srmNone",
+    "srmZoom",
+    "srmSelect",
+    "srmCustom",
+    "SelectionType",
+    "stNone",
+    "stWhole",
+    "stSingleData",
+    "stDataRange",
+    "stMultipleDataRanges"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSQCPENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -8804,32 +11632,6 @@ Q_CONSTINIT const QMetaObject QCP::staticMetaObject = { {
     nullptr,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSQCPENDCLASS_t,
-        // enum 'ResolutionUnit'
-        QtPrivate::TypeAndForceComplete<QCP::ResolutionUnit, std::true_type>,
-        // enum 'ExportPen'
-        QtPrivate::TypeAndForceComplete<QCP::ExportPen, std::true_type>,
-        // enum 'SignDomain'
-        QtPrivate::TypeAndForceComplete<QCP::SignDomain, std::true_type>,
-        // enum 'MarginSide'
-        QtPrivate::TypeAndForceComplete<QCP::MarginSide, std::true_type>,
-        // enum 'MarginSides'
-        QtPrivate::TypeAndForceComplete<QCP::MarginSides, std::true_type>,
-        // enum 'AntialiasedElement'
-        QtPrivate::TypeAndForceComplete<QCP::AntialiasedElement, std::true_type>,
-        // enum 'AntialiasedElements'
-        QtPrivate::TypeAndForceComplete<QCP::AntialiasedElements, std::true_type>,
-        // enum 'PlottingHint'
-        QtPrivate::TypeAndForceComplete<QCP::PlottingHint, std::true_type>,
-        // enum 'PlottingHints'
-        QtPrivate::TypeAndForceComplete<QCP::PlottingHints, std::true_type>,
-        // enum 'Interaction'
-        QtPrivate::TypeAndForceComplete<QCP::Interaction, std::true_type>,
-        // enum 'Interactions'
-        QtPrivate::TypeAndForceComplete<QCP::Interactions, std::true_type>,
-        // enum 'SelectionRectMode'
-        QtPrivate::TypeAndForceComplete<QCP::SelectionRectMode, std::true_type>,
-        // enum 'SelectionType'
-        QtPrivate::TypeAndForceComplete<QCP::SelectionType, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<void, std::true_type>
     >,

@@ -1,11 +1,12 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
+#define WIN32_LEAN_AND_MEAN
 
 #include <QMainWindow>
+#include <QTimer>
 #include <QVector>
 #include "Facade.h"
 #include "dialogarx.h"
-#include <QTimer>
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -33,10 +34,13 @@ private slots:
 
     void on_stopButton_clicked();
 
-    void updatePlots(double time, double generatedValue, double error, double controlValue, double adjustedValue);
+    void updatePlots(double time,
+                     double generatedValue,
+                     double error,
+                     double controlValue,
+                     double adjustedValue);
 
     void on_resetButton_clicked();
-
 
     void on_actionSAVE_TO_FILE_triggered();
 
@@ -44,7 +48,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    Facade* facade;
-    DialogARX* arxDialog;
+    Facade *facade;
+    DialogARX *arxDialog;
 };
 #endif // MAINWINDOW_H

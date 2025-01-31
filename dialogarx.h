@@ -18,7 +18,6 @@ public:
     std::vector<double> getB();
     int getK();
 
-
 private slots:
     void on_pushButton_clicked();
 

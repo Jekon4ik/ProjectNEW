@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 6.7.3
+** Created by: Qt User Interface Compiler version 6.5.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -106,7 +106,7 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(900, 640);
-        MainWindow->setMinimumSize(QSize(600, 0));
+        MainWindow->setMinimumSize(QSize(400, 550));
         actionSAVE_TO_FILE = new QAction(MainWindow);
         actionSAVE_TO_FILE->setObjectName("actionSAVE_TO_FILE");
         actionSAVE_TO_FILE->setCheckable(false);
@@ -132,7 +132,7 @@ public:
 
         gridLayout->addWidget(resetButton, 2, 0, 1, 2);
 
-        verticalSpacer_16 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_16 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         gridLayout->addItem(verticalSpacer_16, 3, 0, 1, 1);
 
@@ -146,14 +146,14 @@ public:
 
         gridLayout->addWidget(startButton, 0, 0, 1, 1);
 
-        verticalSpacer_17 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_17 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         gridLayout->addItem(verticalSpacer_17, 1, 0, 1, 1);
 
 
         verticalLayout_3->addLayout(gridLayout);
 
-        verticalSpacer_15 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_15 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout_3->addItem(verticalSpacer_15);
 
@@ -170,7 +170,7 @@ public:
 
         formLayout->setWidget(0, QFormLayout::FieldRole, kDoubleSpinBox);
 
-        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(1, QFormLayout::FieldRole, verticalSpacer);
 
@@ -185,7 +185,7 @@ public:
 
         formLayout->setWidget(2, QFormLayout::FieldRole, tiDoubleSpinBox_2);
 
-        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(3, QFormLayout::FieldRole, verticalSpacer_2);
 
@@ -200,7 +200,7 @@ public:
 
         formLayout->setWidget(4, QFormLayout::FieldRole, tdDoubleSpinBox_3);
 
-        verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout->setItem(5, QFormLayout::FieldRole, verticalSpacer_3);
 
@@ -220,7 +220,7 @@ public:
 
         verticalLayout_3->addLayout(formLayout);
 
-        verticalSpacer_14 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_14 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout_3->addItem(verticalSpacer_14);
 
@@ -236,19 +236,19 @@ public:
 
         formLayout_2->setWidget(0, QFormLayout::FieldRole, constantDoubleSpinBox);
 
-        verticalSpacer_4 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_4 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout_2->setItem(1, QFormLayout::FieldRole, verticalSpacer_4);
 
         horizontalSlider = new QSlider(centralwidget);
         horizontalSlider->setObjectName("horizontalSlider");
-        horizontalSlider->setOrientation(Qt::Orientation::Horizontal);
+        horizontalSlider->setOrientation(Qt::Horizontal);
 
         formLayout_2->setWidget(2, QFormLayout::SpanningRole, horizontalSlider);
 
         formLayout_3 = new QFormLayout();
         formLayout_3->setObjectName("formLayout_3");
-        verticalSpacer_5 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_5 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout_3->setItem(1, QFormLayout::FieldRole, verticalSpacer_5);
 
@@ -262,7 +262,7 @@ public:
 
         formLayout_3->setWidget(2, QFormLayout::FieldRole, amplitudeSinusoidalDoubleSpinBox);
 
-        verticalSpacer_6 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_6 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout_3->setItem(3, QFormLayout::FieldRole, verticalSpacer_6);
 
@@ -284,18 +284,18 @@ public:
 
         formLayout_2->setLayout(4, QFormLayout::SpanningRole, formLayout_3);
 
-        verticalSpacer_12 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_12 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout_2->setItem(3, QFormLayout::LabelRole, verticalSpacer_12);
 
-        verticalSpacer_13 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_13 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout_2->setItem(3, QFormLayout::FieldRole, verticalSpacer_13);
 
 
         verticalLayout_3->addLayout(formLayout_2);
 
-        verticalSpacer_11 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_11 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout_3->addItem(verticalSpacer_11);
 
@@ -332,15 +332,15 @@ public:
 
         formLayout_4->setWidget(6, QFormLayout::FieldRole, dutyCycleSquareDoubleSpinBox_5);
 
-        verticalSpacer_7 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_7 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout_4->setItem(1, QFormLayout::FieldRole, verticalSpacer_7);
 
-        verticalSpacer_8 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_8 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout_4->setItem(3, QFormLayout::FieldRole, verticalSpacer_8);
 
-        verticalSpacer_9 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_9 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout_4->setItem(5, QFormLayout::FieldRole, verticalSpacer_9);
 
@@ -350,7 +350,7 @@ public:
 
         formLayout_4->setWidget(0, QFormLayout::SpanningRole, squareRadioButton_3);
 
-        verticalSpacer_10 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_10 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         formLayout_4->setItem(7, QFormLayout::FieldRole, verticalSpacer_10);
 

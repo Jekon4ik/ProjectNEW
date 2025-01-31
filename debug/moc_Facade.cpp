@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'Facade.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.7.3)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -9,16 +9,19 @@
 #include "../Facade.h"
 #include <QtCore/qmetatype.h>
 
+#if __has_include(<QtCore/qtmochelpers.h>)
 #include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
 
 #include <memory>
 
-
-#include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'Facade.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.7.3. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -34,7 +37,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSFacadeENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSFacadeENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSFacadeENDCLASS = QtMocHelpers::stringData(
     "Facade",
     "newSimulationData",
     "",
@@ -45,15 +48,51 @@ constexpr auto qt_meta_stringdata_CLASSFacadeENDCLASS = QtMocHelpers::stringData
     "adjustedValue",
     "runSimulationStep"
 );
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSFacadeENDCLASS_t {
+    uint offsetsAndSizes[18];
+    char stringdata0[7];
+    char stringdata1[18];
+    char stringdata2[1];
+    char stringdata3[5];
+    char stringdata4[15];
+    char stringdata5[6];
+    char stringdata6[13];
+    char stringdata7[14];
+    char stringdata8[18];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSFacadeENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSFacadeENDCLASS_t qt_meta_stringdata_CLASSFacadeENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 6),  // "Facade"
+        QT_MOC_LITERAL(7, 17),  // "newSimulationData"
+        QT_MOC_LITERAL(25, 0),  // ""
+        QT_MOC_LITERAL(26, 4),  // "time"
+        QT_MOC_LITERAL(31, 14),  // "generatedValue"
+        QT_MOC_LITERAL(46, 5),  // "error"
+        QT_MOC_LITERAL(52, 12),  // "controlValue"
+        QT_MOC_LITERAL(65, 13),  // "adjustedValue"
+        QT_MOC_LITERAL(79, 17)   // "runSimulationStep"
+    },
+    "Facade",
+    "newSimulationData",
+    "",
+    "time",
+    "generatedValue",
+    "error",
+    "controlValue",
+    "adjustedValue",
+    "runSimulationStep"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
 Q_CONSTINIT static const uint qt_meta_data_CLASSFacadeENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods
